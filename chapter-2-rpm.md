@@ -1,25 +1,9 @@
-#shell 学习
+#shell RPM
 
 出现语法错误，首先要看一下文件的编码格式是否正确，最好使用UE打开，设置unix, utf-8
 vim查看文件编码格式： :set fileencoding
 
-1. cp 
-
-复制文件夹  cp -r fold newfold
-
-2. find
-$(echo $file|tr a-z A-Z)
-
-3.if 语句
-if  exp ; then
-
-elif exp; then
-
-else
- ;
-fi
-
-####3. RPM 安装操作命令
+####1. RPM 安装操作命令
 + 解压 `rpm2cpio xxx.rpm | cpio -div`
 
 + 安装
