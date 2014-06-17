@@ -64,6 +64,7 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
 + 管道 |
 
 #### chapter 4 基本流程语句
+
 ###### 条件语句
 1. if-then-fi
 ```shell
@@ -78,7 +79,6 @@ if  condition  ；then
    ...
 fi
 ```
-
 2. if-then-else-fi
 ```shell
 If  condition 
@@ -101,7 +101,8 @@ else
 fi
 ```
 ###### 循环
-1. while            
+
+1. while
 ```shell
 while express
 do
@@ -109,7 +110,7 @@ do
 done
 #从循环中退出使用 break和continue命令
 ```
-2. for                
+2. for
 ```shell
 for var in arg1 arg2 ... argn
 do 
@@ -125,8 +126,10 @@ do
 done
 #从循环中退出使用 break和continue命令
 ```
+
 ###### 选择
-1. case             
+
+1. case
 ```shell
 case var in
 var1) 
@@ -149,8 +152,9 @@ done
 ```
 
 #### chapter 5 比较
+
 ###### 字符串比较
-1. 字符串相等比较             
+1. 字符串相等比较
 ```shell
 if [ $str = “value” ]; then        #注意等号两边比较有空格，否则为赋值运算
 …
@@ -177,7 +181,8 @@ if [ ! $str = “value” ]; then      #！为not的含义，即取反
 fi
 ```
 ###### 数字比较
-1. 大于、大于等于           
+
+1. 大于、大于等于
 ```shell
 if [ $str -gt 100 ]; then        #-gt表示大于
 …
@@ -211,8 +216,10 @@ if [ ! $str -eq 100 ]; then        #!表示取否，-eq表示等于
 …
 fi
 ```
+
 ###### 判断条件连接
-1. 与/and，即要求表达式1与表达式2同时为真                       
+
+1. 与/and，即要求表达式1与表达式2同时为真
 ```shell
 if express1 && express 2 ;           #&&表示与/and含义
 then
