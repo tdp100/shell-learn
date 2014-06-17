@@ -1,5 +1,4 @@
 ﻿#!/bin/bash
-# Directory="/opt/goku/services/portal/webapps/ROOT/tenant_copy"
 
 myfunc()
 {
