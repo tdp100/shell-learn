@@ -66,7 +66,7 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
 #### chapter 4 基本流程语句
 
 ###### 条件语句
-1. if-then-fi              
+1. if-then-fi                                 
   ```shell
   if  condition                     
   then                    
@@ -79,7 +79,7 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
      ...                 
   fi               
   ```
-2. if-then-else-fi                    
+2. if-then-else-fi                                 
   ```shell
   If  condition 
   then
@@ -102,7 +102,7 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
   ```
 
 ###### 循环
-1. while             
+1. while                                              
   ```shell
   while express             
   do              
@@ -110,7 +110,7 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
   done        
   #从循环中退出使用 break和continue命令              
   ```
-2. for            
+2. for                                 
   ```shell
   for var in arg1 arg2 ... argn            
   do                   
@@ -118,7 +118,7 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
   done              
   #从循环中退出使用 break和continue命令                
   ```
-3. until         
+3. until                                 
   ```shell
   until express              
   do           
@@ -129,7 +129,7 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
 
 ###### 选择
 
-1. case                                                                   
+1. case                                 
   ```shell
   case var in                         
   var1) 
@@ -142,7 +142,7 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
       ;;                 
   esac                
   ```
-2. select                                                               
+2. select                                 
   ```shell
   select variable [in list]                                
   do                    
@@ -155,13 +155,13 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
 I chose to use the [ expression ] form of the test command since most people think it's easier to read. Notice that the spaces between the "[" and the beginning of the expression are required. Likewise, the space between the end of the expression and the trailing "]".
 
 ###### 字符串比较                  
-1. 字符串相等比较                        
+1. 字符串相等比较                                 
   ```shell      
   if [ $str = “value” ]; then        #注意等号两边比较有空格，否则为赋值运算
   …
   fi
   ```
-2. 字符串是否为空
+2. 字符串是否为空                                 
   ```shell
   if [ “-$str” = “-” ]; then         #-没有任何含义，只是为了增加可读性
   …
@@ -171,7 +171,7 @@ I chose to use the [ expression ] form of the test command since most people thi
   …
   fi
   ```
-3. 字符串不相等比较         
+3. 字符串不相等比较                                 
   ```shell
   if [ $str != “value” ]; then       #注意等号两边比较有空格，否则为赋值运算
   …
@@ -183,7 +183,7 @@ I chose to use the [ expression ] form of the test command since most people thi
   ```
 
 ###### 数字比较
-1. 大于、大于等于                 
+1. 大于、大于等于                                 
   ```shell
   if [ $str -gt 100 ]; then        #-gt表示大于
   …
