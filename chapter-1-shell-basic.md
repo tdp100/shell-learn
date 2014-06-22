@@ -68,16 +68,16 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
 ###### 条件语句
 1. if-then-fi              
   ```shell
-  if  condition 
-  then
-     ...
-  fi
+  if  condition                     
+  then                    
+     ...                    
+  fi                    
   ```
-  我们经常使用的书写方式：使用;符号，在一行中包含多条命令与语句
-  ```shell
-  if  condition  ；then
-     ...
-  fi
+  我们经常使用的书写方式：使用;符号，在一行中包含多条命令与语句               
+  ```shell              
+  if  condition  ；then            
+     ...                 
+  fi               
   ```
 2. if-then-else-fi                    
   ```shell
@@ -100,55 +100,55 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
      ...
   fi
   ```
-###### 循环
 
-1. while
-  ```shell
-  while express
-  do
-     ...
-  done
-  #从循环中退出使用 break和continue命令
+###### 循环
+1. while             
+  ```shell       
+  while express             
+  do              
+     ...            
+  done        
+  #从循环中退出使用 break和continue命令              
   ```
-2. for
-  ```shell
-  for var in arg1 arg2 ... argn
-  do 
-    ...
-  done
-  #从循环中退出使用 break和continue命令
+2. for            
+  ```shell       
+  for var in arg1 arg2 ... argn            
+  do                   
+    ...               
+  done              
+  #从循环中退出使用 break和continue命令                
   ```
-3. until
-  ```shell
-  until express
-  do
-  ...
-  done
-  #从循环中退出使用 break和continue命令
+3. until         
+  ```shell                
+  until express              
+  do           
+  ...              
+  done                  
+  #从循环中退出使用 break和continue命令                              
   ```
 
 ###### 选择
 
-1. case                        
-  ```shell
-  case var in
+1. case                                                 
+  ```shell                    
+  case var in                         
   var1) 
-      ... #代码语句
-      ;;
-  var2|var3) 
-      ...
-      ;;
-  *)
-      ;;
-  esac
+      ... #代码语句                          
+      ;;                       
+  var2|var3)                     
+      ...                 
+      ;;                
+  *)                       
+      ;;                 
+  esac                
   ```
-2. select                        
-  ```shell            
-  select variable [in list]                
-  do
-  command...
-  break
-  done
+2. select                                          
+  ```shell                               
+  select variable [in list]                                
+  do                    
+  command...                    
+  break                      
+  done                            
   ```
 
 #### chapter 5 比较
