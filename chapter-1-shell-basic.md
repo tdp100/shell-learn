@@ -67,218 +67,218 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
 
 ###### 条件语句
 1. if-then-fi
-```shell
-if  condition 
-then
-   ...
-fi
-```
-我们经常使用的书写方式：使用;符号，在一行中包含多条命令与语句
-```shell
-if  condition  ；then
-   ...
-fi
-```
+  ```shell
+  if  condition 
+  then
+     ...
+  fi
+  ```
+  我们经常使用的书写方式：使用;符号，在一行中包含多条命令与语句
+  ```shell
+  if  condition  ；then
+     ...
+  fi
+  ```
 2. if-then-else-fi
-```shell
-If  condition 
-then
-   ...
-else
-   ...
-fi
-```
-或者                
-```shell
-if condition1
-then
-   ...
-elif condition2
-then
-   ...
-else
-   ...
-fi
-```
+  ```shell
+  If  condition 
+  then
+     ...
+  else
+     ...
+  fi
+  ```
+  或者                
+  ```shell
+  if condition1
+  then
+     ...
+  elif condition2
+  then
+     ...
+  else
+     ...
+  fi
+  ```
 ###### 循环
 
 1. while
-```shell
-while express
-do
-   ...
-done
-#从循环中退出使用 break和continue命令
-```
+  ```shell
+  while express
+  do
+     ...
+  done
+  #从循环中退出使用 break和continue命令
+  ```
 2. for
-```shell
-for var in arg1 arg2 ... argn
-do 
-  ...
-done
-#从循环中退出使用 break和continue命令
-```
+  ```shell
+  for var in arg1 arg2 ... argn
+  do 
+    ...
+  done
+  #从循环中退出使用 break和continue命令
+  ```
 3. until
-```shell
-until express
-do
-...
-done
-#从循环中退出使用 break和continue命令
-```
+  ```shell
+  until express
+  do
+  ...
+  done
+  #从循环中退出使用 break和continue命令
+  ```
 
 ###### 选择
 
 1. case
-```shell
-case var in
-var1) 
-    ... #代码语句
-    ;;
-var2|var3) 
-    ...
-    ;;
-*)
-    ;;
-esac
-```
+  ```shell
+  case var in
+  var1) 
+      ... #代码语句
+      ;;
+  var2|var3) 
+      ...
+      ;;
+  *)
+      ;;
+  esac
+  ```
 2. select          
-```shell
-select variable [in list]
-do
-command...
-break
-done
-```
+  ```shell
+  select variable [in list]
+  do
+  command...
+  break
+  done
+  ```
 
 #### chapter 5 比较
 
 ###### 字符串比较
 1. 字符串相等比较
-```shell
-if [ $str = “value” ]; then        #注意等号两边比较有空格，否则为赋值运算
-…
-fi
-```
+  ```shell
+  if [ $str = “value” ]; then        #注意等号两边比较有空格，否则为赋值运算
+  …
+  fi
+  ```
 2. 字符串是否为空
-```shell
-if [ “-$str” = “-” ]; then         #-没有任何含义，只是为了增加可读性
-…
-fi
+  ```shell
+  if [ “-$str” = “-” ]; then         #-没有任何含义，只是为了增加可读性
+  …
+  fi
 
-if [ “X$str” = “X” ]; then         #X没有任何含义，只是为了增加可读性
-…
-fi
-```
+  if [ “X$str” = “X” ]; then         #X没有任何含义，只是为了增加可读性
+  …
+  fi
+  ```
 3. 字符串不相等比较         
-```shell
-if [ $str != “value” ]; then       #注意等号两边比较有空格，否则为赋值运算
-…
-fi
+  ```shell
+  if [ $str != “value” ]; then       #注意等号两边比较有空格，否则为赋值运算
+  …
+  fi
 
-if [ ! $str = “value” ]; then      #！为not的含义，即取反
-…
-fi
-```
+  if [ ! $str = “value” ]; then      #！为not的含义，即取反
+  …
+  fi
+  ```
 ###### 数字比较
 
 1. 大于、大于等于
-```shell
-if [ $str -gt 100 ]; then        #-gt表示大于
-…
-fi
+  ```shell
+  if [ $str -gt 100 ]; then        #-gt表示大于
+  …
+  fi
 
-if [ $str -ge 100 ]; then        #-ge表示大于等于
-…
-fi
-```
+  if [ $str -ge 100 ]; then        #-ge表示大于等于
+  …
+  fi
+  ```
 2. 小于、小于等于                   
-```shell
-if [ $str -lt 100 ]; then        #-lt表示小于
-…
-fi
+  ```shell
+  if [ $str -lt 100 ]; then        #-lt表示小于
+  …
+  fi
 
-if [ $str -le 100 ]; then        #-le表示小于等于
-…
-fi
-```
-2. 等于、不等于                        
-```shell
-if [ $str –eq 100 ]; then        #-eq表示等于
-…
-fi
+  if [ $str -le 100 ]; then        #-le表示小于等于
+  …
+  fi
+  ```
+3. 等于、不等于                        
+  ```shell
+  if [ $str –eq 100 ]; then        #-eq表示等于
+  …
+  fi
 
-if [ $str -ne 100 ]; then        #-ne表示不等于
-…
-fi
+  if [ $str -ne 100 ]; then        #-ne表示不等于
+  …
+  fi
 
-if [ ! $str -eq 100 ]; then        #!表示取否，-eq表示等于
-…
-fi
-```
+  if [ ! $str -eq 100 ]; then        #!表示取否，-eq表示等于
+  …
+  fi
+  ```
 
 ###### 判断条件连接
 
 1. 与/and，即要求表达式1与表达式2同时为真
-```shell
-if express1 && express 2 ;           #&&表示与/and含义
-then
-…
-fi
+  ```shell
+  if express1 && express 2 ;           #&&表示与/and含义
+  then
+  …
+  fi
 
-if [ str1 = “aa” ] && [ str2 = “bb” ] ;     
-then
-…
-fi
-```
+  if [ str1 = “aa” ] && [ str2 = “bb” ] ;     
+  then
+  …
+  fi
+  ```
 2. 或/or，即要求表达式1或者表达式2之一为真                  
-```shell
-if express1 || express 2 ;             #||表示或/or含义
-then
-…
-fi
+  ```shell
+  if express1 || express 2 ;             #||表示或/or含义
+  then
+  …
+  fi
 
-if [ str1 = “aa” ] || [ str2 = “bb” ] ;     
-then
-…
-fi
-```
+  if [ str1 = “aa” ] || [ str2 = “bb” ] ;     
+  then
+  …
+  fi
+  ```
 3. 取反             
-```shell
-if ! express1 ;                    #！表示去反
-then
-…
-fi
+  ```shell
+  if ! express1 ;                    #！表示去反
+  then
+  …
+  fi
 
-if [ ! $? –eq 0 ]; 
-then
-…
-fi
-```
+  if [ ! $? –eq 0 ]; 
+  then
+  …
+  fi
+  ```
 
 #### chapter 6 Shell函数
 可以将SHELL中需要重复执行的代码写成函数，与C编程的函数一致。            
 ***函数格式***                         
 1. 定义函数的格式为：                      
-函数名（）                 
-{                           
-   ...              
-}                   
-或者                         
-函数名（）{                         
-   ...                    
-}                     
-两者方式都可行。如果愿意，可在函数名前加上关键字function，建议增加。                  
-function 函数名（）              
-{                  
- ...                  
-}                  
+  函数名（）                 
+  {                           
+     ...              
+  }                   
+  或者                         
+  函数名（）{                         
+     ...                    
+  }                     
+  两者方式都可行。如果愿意，可在函数名前加上关键字function，建议增加。                  
+  function 函数名（）              
+  {                  
+   ...                  
+  }                  
 
 2. 向函数传入参数                
-函数可以带参数调用，调用方式为:                          
-函数名称  参数列表                            
-函数取得传入的参数，与SHELL得到调用的参数完全一致：                        
-判断参数个数：                    
-$#                         
-取参数：                           
-$1  $2 …                       
+  函数可以带参数调用，调用方式为:                          
+  函数名称  参数列表                            
+  函数取得传入的参数，与SHELL得到调用的参数完全一致：                        
+  判断参数个数：                    
+  $#                         
+  取参数：                           
+  $1  $2 …                       
