@@ -152,6 +152,7 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
   ```
 
 #### chapter 5 比较
+I chose to use the [ expression ] form of the test command since most people think it's easier to read. Notice that the spaces between the "[" and the beginning of the expression are required. Likewise, the space between the end of the expression and the trailing "]".
 
 ###### 字符串比较                  
 1. 字符串相等比较                        
@@ -283,7 +284,7 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
     取参数：                           
     $1  $2 …                       
 
-#### chapter 7 文件操作
+#### chapter 7 if表达式中的比较操作
 + -e  文件已经存在
 + -f  文件是普通文件
 + -s  文件大小不为零
@@ -294,9 +295,16 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
 + -g  文件的 GID 标志被设置
 + -u  文件的 UID 标志被设置
 + -O  文件是属于当前用户的
++ -L  文件是符号链接文件
 + -G  文件的组 ID 和当前用户相同
 + file1 -nt file2 文件 file1 比 file2 更新
 + file1 -ot file2 文件 file1 比 file2 更老
+
++ -z string 判断字符串为空
++ -n string 判断字符串不为空
++ string1 = string2 string1等于string2
++ string1 != string2 string1不等于string2
+
 
 #### chapter 8 bash在控制台下的快捷键
 + ctrl+u 删除光标以前的所有字符
