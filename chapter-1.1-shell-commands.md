@@ -90,3 +90,18 @@ echo "power of the second number   = $((first_num ** second_num))"
 
 #### 退出函数?
 http://linuxcommand.org/writing_shell_scripts.php
+
+menu()         
+{
+	echo "\$1 is $1"
+	echo "this is $2"
+	reture 9
+	#函数内内语句也无分号;
+}
+
+menu aa bb
+#和C语言不同，执行函数不带括号()
+
+menu aa bb
+result=$?
+echo "$result”
