@@ -89,3 +89,4 @@ echo "power of the second number   = $((first_num ** second_num))"
 ```
 
 #### 退出函数?
+http://linuxcommand.org/writing_shell_scripts.php
