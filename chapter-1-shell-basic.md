@@ -74,7 +74,7 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
   fi                    
   ```
   我们经常使用的书写方式：使用;符号，在一行中包含多条命令与语句               
-  ```shell              
+  ```shell
   if  condition  ；then            
      ...                 
   fi               
@@ -103,7 +103,7 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
 
 ###### 循环
 1. while             
-  ```shell       
+  ```shell
   while express             
   do              
      ...            
@@ -111,7 +111,7 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
   #从循环中退出使用 break和continue命令              
   ```
 2. for            
-  ```shell       
+  ```shell
   for var in arg1 arg2 ... argn            
   do                   
     ...               
@@ -119,7 +119,7 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
   #从循环中退出使用 break和continue命令                
   ```
 3. until         
-  ```shell                
+  ```shell
   until express              
   do           
   ...              
@@ -130,7 +130,7 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
 ###### 选择
 
 1. case                                                                   
-  ```shell                    
+  ```shell
   case var in                         
   var1) 
       ... #代码语句                          
@@ -143,7 +143,7 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
   esac                
   ```
 2. select                                                               
-  ```shell                               
+  ```shell
   select variable [in list]                                
   do                    
   command...                    
@@ -155,7 +155,7 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
 
 ###### 字符串比较                  
 1. 字符串相等比较                        
-  ```shell                    
+  ```shell      
   if [ $str = “value” ]; then        #注意等号两边比较有空格，否则为赋值运算
   …
   fi
