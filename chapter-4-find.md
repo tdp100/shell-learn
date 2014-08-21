@@ -16,3 +16,8 @@ find path -options expression
 ```shell
 find / -name ttt.sh 2>/dev/null
 ```
+
+4. find命令把查询结果赋值给xargs命令, 所以可以配合使用，如：
+```shell
+find ./ -iname main.js | xargs grep -2 "lang"
+```
