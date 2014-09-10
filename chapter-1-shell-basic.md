@@ -322,3 +322,7 @@ I chose to use the [ expression ] form of the test command since most people thi
 + ctrl+b 移动光标到前一个字符
 + ctrl+x 标记一个位置
 + ctrl+c 清除当前的输入
+
+
+#### chapter 9 linux 资源
+http://blog.jobbole.com/76316/
