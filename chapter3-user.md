@@ -1,1 +1,1 @@
-cat /etc/passwd   看所有系统用户信息
+`cat /etc/passwd`   看所有系统用户信息
