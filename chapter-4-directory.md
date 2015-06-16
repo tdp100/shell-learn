@@ -2,16 +2,17 @@
 目录
 
 1. 当前工作目录
-```shell
+```sh
 pwd
-man fi
+```
 
 2. 切换到上一历史目录
-```shell
+
+```sh
 cd -
-man fi
+```
 
 1. 切换到用户的home目录
-```shell
+```sh
 cd ~username
-man fi
+```
