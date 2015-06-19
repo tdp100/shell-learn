@@ -10,6 +10,7 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
     这是最常使用的变量，我们可以使用任何不包含空白字元的字串来当做变量名称。 设定变量值时则用下列方式：
     + `var=string`   #不能是var = string，即等号两边不能有空格。与判断语句正好相反，判断语句表的=或者其他符号两边必须有空格，否则为赋值运算
     + 取用变量时则在变量名称前加上一"$" 号，或者${name}。
+
     ```sh
     name=Tom
     echo name
@@ -18,11 +19,13 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
     name
     Tom
     ```
+
 2. 环境变量
    和使普通变量相似，只不过此种变量会将其值传给其所执行的命令。
    要将一普通变量设定为系统变量，只要加上：
    `export var`或者`export var=var_value` 或者`setenv var var_value` 或者
-   	```sh
+
+    ```sh
    	name=Tom
    	export name
    	```
@@ -35,10 +38,12 @@ Shell的类型只有***字串变量***，所以要使用数值运算则必须靠
     + 5. $PS1 在命令列时的提示号
     + 6. $PS2 当命令尚未打完时，Shell要求再输入时的提示号
     + 7. $MANPATH man 指令的搜寻路径
+
 3. 只读变量
    和普通变量相似，只不过这些变量不能被改变。要将变量设成只读的，只要加上：
 	`readonly var`
    ***还有一点，系统变量不可以设定成只读的***
+
 4. 特殊变量
    有些变量是一开始执行Script时就会设定，并且不以加以修改，但我们不叫它只读的系统变量，而叫它特殊变量，因为这些变量是一执行程式时就有了，况且使用者无法将一般的系统变量设定成只读的
    + $0 这个程序的执行名字
@@ -106,20 +111,25 @@ comparing regular expressions. eg:
 
 ###### 条件语句
 1. if-then-fi                                 
-  ```shell
+
+  ```sh
   if  condition                     
   then                    
      ...                    
   fi               
   ```
+
   我们经常使用的书写方式：使用;符号，在一行中包含多条命令与语句               
-  ```shell
+
+  ```sh
   if  condition  ；then            
      ...                 
   fi               
   ```
+  
 2. if-then-else-fi                                 
-  ```shell
+
+  ```sh
   If  condition 
   then
   ...
@@ -127,8 +137,10 @@ comparing regular expressions. eg:
      ...
   fi
   ```
+  
   或者                
-  ```shell
+
+  ```sh
   if condition1
   then
      ...
@@ -142,23 +154,28 @@ comparing regular expressions. eg:
 
 ###### 循环
 1. while                                              
-  ```shell
+
+  ```sh
   while express             
   do              
      ...            
   done        
   #从循环中退出使用 break和continue命令              
   ```
+
 2. for                                 
-  ```shell
+
+  ```sh
   for var in arg1 arg2 ... argn            
   do                   
     ...               
   done              
   #从循环中退出使用 break和continue命令                
   ```
+
 3. until                                 
-  ```shell
+
+  ```sh
   until express              
   do           
   ...              
@@ -169,6 +186,7 @@ comparing regular expressions. eg:
 ###### 选择
 
 1. case                                 
+
   ```sh
   case var in                         
   var1) 
@@ -181,8 +199,10 @@ comparing regular expressions. eg:
       ;;                 
   esac                
   ```
+
 2. select                                 
-  ```sh
+
+   ```sh
   select variable [in list]                                
   do                    
   command...                    
