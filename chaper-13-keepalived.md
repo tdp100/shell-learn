@@ -16,9 +16,9 @@ ECMP
 https://sc1.checkpoint.com/documents/R76SP/CP_R76SP_Security_System_WebAdminGuide/105231.htm
 
 
-## 2. config
+## 2. confi
 
-see the image below
+see the ima
 
 ![image](http://code.huawei.com/cloud-service-dev-team-devops/common-components/uploads/05df95b6dcf155bbc17a976eeab7496e/image.png)
 
