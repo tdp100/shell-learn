@@ -58,3 +58,5 @@
 23. gitlab codereview/settings/member role/issues/contributions/wiki
 
 24. markdown
+
+25. git submodule
