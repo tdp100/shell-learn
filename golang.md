@@ -7,3 +7,12 @@
     ------https://talks.golang.org/2015/simplicity-is-complicated.slide
 3.  Rob Pike's 5 Rules of Programming
     ------http://users.ece.utexas.edu/~adnan/pike.html
+
+4.  Concurrency Is Not Parallelism
+    ----https://talks.golang.org/2012/waza.slide
+
+5.  go present
+    ----http://halyph.com/blog/2015/05/18/golang-presentation-tool.html
+
+6.  best practise
+    ----https://talks.golang.org/2013/bestpractices.slide#1
