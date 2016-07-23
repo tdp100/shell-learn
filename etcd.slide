@@ -1,0 +1,127 @@
+etcd
+introduce to use etcd
+23 Jul 2016
+Tags: etcd, cluster
+
+Tang Deping
+Software Engineer for Public Cloud, Huawei Technologies Co.,Ltd.
+tangdeping@huawei.com
+http://tdp100.github.com
+@steve_tang
+
+* Agenda
+
+- introduce etcd
+
+- etcd client
+
+- etcd proxy
+
+- etcd cluster
+
+- etcd api
+
+- ssl
+
+- irc
+
+* introduce etcd
+
+- Go 1.4 runtime
+
+- distributed key value store (master election)
+
+- consensus algorithm [[https://raft.github.io/]]
+
+- b+tree (directories for key placed inside)
+
+- WAL (Write-ahead logging)  and crc checking
+
+- gRPC(etcd3)
+
+* etcd client
+
+- etcdctl
+
+  set key: `etcdctl set /message Hello`
+  get key: `etcdctl get /message Hello`
+  remove key: `etcdctl rm /message`
+  set key with ttl(time to live:seconds): `etcdctl set /message Hello --ttl=20`
+  create directory: `etcdctl mkdir /foo-service`
+  watch directory: `etcdctl watch --recursive /foo-service`
+
+- http-based api
+
+- configuration flags
+
+  cli flags or environment variables
+
+* etcd proxy
+
+- readwrite
+
+- readonly
+
+* start an etcd proxy
+
+- Start an etcd proxy with a static configuration
+
+  etcd --proxy on \
+  --listen-client-urls http://127.0.0.1:2379 \
+  --initial-cluster infra0=http://10.0.1.10:2380,infra1=http://10.0.1.11:2380,infra2=http://10.0.1.12:2380
+
+- Start an etcd proxy with the discovery service
+
+  etcd --proxy on \
+  --listen-client-urls http://127.0.0.1:2379 \
+  --discovery https://discovery.etcd.io/3e86b59982e49066c5d813af1c2e2579cbf573de \
+
+* etcd cluster
+
+- static bootstrap
+
+- discovery service
+
+- MVCC(Multi-Version Concurrency Control)
+
+* etcd api
+
+gRPC and HTTP/2 for etcd3
+
+- google/gRPC[[http://www.grpc.io/]]
+
+- protobuf[[https://developers.google.com/protocol-buffers]]
+
+gRPC gateway: Support for JSON endpoints
+
+
+* ssl
+
+- ssl files
+
+  ca.crt/server.crt/server.key for ssl_server; ca.crt/client.crt/client.key for ssl_client
+
+- client to server
+
+  --cert-file=<path>    --client-cert-auth
+  --key-file=<path>     --trusted-ca-file=<path>
+
+- peer to peer/cluster
+
+  --peer-cert-file=<path>   --peer-client-cert-auth
+  --peer-key-file=<path>    --peer-trusted-ca-file=<path> 
+
+- client to proxy
+
+  --peer-cert-file=<path>
+  --peer-key-file=<path>
+
+* irc
+
+- #coreos
+
+- #go-nuts
+
+* link
+
+etcd3-a-new-etcd [[https://coreos.com/blog/etcd3-a-new-etcd.html]]
