@@ -17,3 +17,7 @@ eg: #coreos
 #### help for irc
 
 https://botbot.me/freenode/coreos/help/
+
+#### popular channel
+
+https://botbot.me/
