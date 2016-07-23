@@ -47,6 +47,13 @@
 
 18. git cherry-pick
 
+
+1.  Git的来源
+2.  Git的原理和命令
+3.  Git与内源开发模式
+4.  GitLab在项目协作开发中的最佳实践
+
+
 19. git fetch
 
 20. git remote add/rm/show/rename; git remote -v
