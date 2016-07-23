@@ -7,7 +7,9 @@ https://webchat.freenode.net/
 
 #### add channel
 
-eg: coreos
+eg: #coreos
+
+`/JOIN #coreos`
 
 #### create owner channel
 
