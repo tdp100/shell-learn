@@ -16,3 +16,6 @@
 
 6.  best practise
     ----https://talks.golang.org/2013/bestpractices.slide#1
+
+7. golang 1.7 SSA
+    ----https://sillymon.ch/posts/SSAinGo1.7.html 
