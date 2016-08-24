@@ -35,3 +35,10 @@ http://martinfowler.com/
 优秀的科技公司：
 
 1. netflix: http://techblog.netflix.com
+
+
+java:
+
+1. https://www.cs.unc.edu/~stotts/COMP144/lectures/lect32.pdf
+2. https://docs.oracle.com/javase/specs/jvms/se8/jvms8.pdf
+3. http://www.javaworld.com/article/2076603/core-java/java-virtual-machine-books----a-comparative-review.html
