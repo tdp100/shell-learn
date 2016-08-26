@@ -50,3 +50,6 @@ java:
 
 >Bill Venners有14年编写软件专著的经验。他在硅谷的Artima软件公司提供软件咨询和培训服务。自1996年以来，他已经编写了40多篇有关Java技术的文章。他在《Java World杂志》辟有热闹专栏，介绍Java内部细节、面向对象设计技术和Jini技术。他还是artima.com的作者和网站管理员
 >
+
+人物关系分析图：
+1. https://www.semanticscholar.org ken thompson
