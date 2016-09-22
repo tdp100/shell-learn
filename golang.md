@@ -19,3 +19,5 @@
 
 7. golang 1.7 SSA
     ----https://sillymon.ch/posts/SSAinGo1.7.html 
+8. golang cgo
+    ----https://www.goinggo.net/2013/08/using-c-dynamic-libraries-in-go-programs.html
