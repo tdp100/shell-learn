@@ -1,0 +1,494 @@
+"".main t=1 size=240 value=0 args=0x0 locals=0x70
+	0x0000 00000 (main.go:5)	TEXT	"".main(SB), $112-0
+	0x0000 00000 (main.go:5)	MOVQ	(TLS), CX
+	0x0009 00009 (main.go:5)	CMPQ	SP, 16(CX)
+	0x000d 00013 (main.go:5)	JLS	229
+	0x0013 00019 (main.go:5)	SUBQ	$112, SP
+	0x0017 00023 (main.go:5)	FUNCDATA	$0, gclocals·7d2d5fca80364273fb07d5820a76fef4(SB)
+	0x0017 00023 (main.go:5)	FUNCDATA	$1, gclocals·5ef976c2593056b9243adf402ae9d952(SB)
+	0x0017 00023 (main.go:6)	PCDATA	$0, $0
+	0x0017 00023 (main.go:6)	CALL	"".TestDefer(SB)
+	0x001c 00028 (main.go:6)	MOVQ	(SP), BX
+	0x0020 00032 (main.go:7)	MOVQ	BX, "".autotmp_0000+48(SP)
+	0x0025 00037 (main.go:7)	MOVQ	$0, BX
+	0x0027 00039 (main.go:7)	MOVQ	BX, "".autotmp_0004+72(SP)
+	0x002c 00044 (main.go:7)	MOVQ	BX, "".autotmp_0004+80(SP)
+	0x0031 00049 (main.go:7)	LEAQ	"".autotmp_0004+72(SP), BX
+	0x0036 00054 (main.go:7)	CMPQ	BX, $0
+	0x003a 00058 (main.go:7)	JEQ	$1, 222
+	0x0040 00064 (main.go:7)	MOVQ	$1, "".autotmp_0001+96(SP)
+	0x0049 00073 (main.go:7)	MOVQ	$1, "".autotmp_0001+104(SP)
+	0x0052 00082 (main.go:7)	MOVQ	BX, "".autotmp_0001+88(SP)
+	0x0057 00087 (main.go:7)	LEAQ	type.int(SB), BX
+	0x005e 00094 (main.go:7)	MOVQ	BX, (SP)
+	0x0062 00098 (main.go:7)	LEAQ	"".autotmp_0000+48(SP), BX
+	0x0067 00103 (main.go:7)	MOVQ	BX, 8(SP)
+	0x006c 00108 (main.go:7)	MOVQ	$0, 16(SP)
+	0x0075 00117 (main.go:7)	PCDATA	$0, $1
+	0x0075 00117 (main.go:7)	CALL	runtime.convT2E(SB)
+	0x007a 00122 (main.go:7)	MOVQ	24(SP), CX
+	0x007f 00127 (main.go:7)	MOVQ	32(SP), AX
+	0x0084 00132 (main.go:7)	MOVQ	"".autotmp_0001+88(SP), BX
+	0x0089 00137 (main.go:7)	MOVQ	CX, "".autotmp_0005+56(SP)
+	0x008e 00142 (main.go:7)	MOVQ	CX, (BX)
+	0x0091 00145 (main.go:7)	MOVQ	AX, "".autotmp_0005+64(SP)
+	0x0096 00150 (main.go:7)	CMPB	runtime.writeBarrier(SB), $0
+	0x009d 00157 (main.go:7)	JNE	$0, 202
+	0x009f 00159 (main.go:7)	MOVQ	AX, 8(BX)
+	0x00a3 00163 (main.go:7)	MOVQ	"".autotmp_0001+88(SP), BX
+	0x00a8 00168 (main.go:7)	MOVQ	BX, (SP)
+	0x00ac 00172 (main.go:7)	MOVQ	"".autotmp_0001+96(SP), BX
+	0x00b1 00177 (main.go:7)	MOVQ	BX, 8(SP)
+	0x00b6 00182 (main.go:7)	MOVQ	"".autotmp_0001+104(SP), BX
+	0x00bb 00187 (main.go:7)	MOVQ	BX, 16(SP)
+	0x00c0 00192 (main.go:7)	PCDATA	$0, $2
+	0x00c0 00192 (main.go:7)	CALL	fmt.Println(SB)
+	0x00c5 00197 (main.go:8)	ADDQ	$112, SP
+	0x00c9 00201 (main.go:8)	RET
+	0x00ca 00202 (main.go:7)	LEAQ	8(BX), R8
+	0x00ce 00206 (main.go:7)	MOVQ	R8, (SP)
+	0x00d2 00210 (main.go:7)	MOVQ	AX, 8(SP)
+	0x00d7 00215 (main.go:7)	PCDATA	$0, $1
+	0x00d7 00215 (main.go:7)	CALL	runtime.writebarrierptr(SB)
+	0x00dc 00220 (main.go:7)	JMP	163
+	0x00de 00222 (main.go:7)	MOVL	AX, (BX)
+	0x00e0 00224 (main.go:7)	JMP	64
+	0x00e5 00229 (main.go:7)	NOP
+	0x00e5 00229 (main.go:5)	CALL	runtime.morestack_noctxt(SB)
+	0x00ea 00234 (main.go:5)	JMP	0
+	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 0f 86 d2  eH..%....H;a....
+	0x0010 00 00 00 48 83 ec 70 e8 00 00 00 00 48 8b 1c 24  ...H..p.....H..$
+	0x0020 48 89 5c 24 30 31 db 48 89 5c 24 48 48 89 5c 24  H.\$01.H.\$HH.\$
+	0x0030 50 48 8d 5c 24 48 48 83 fb 00 0f 84 9e 00 00 00  PH.\$HH.........
+	0x0040 48 c7 44 24 60 01 00 00 00 48 c7 44 24 68 01 00  H.D$`....H.D$h..
+	0x0050 00 00 48 89 5c 24 58 48 8d 1d 00 00 00 00 48 89  ..H.\$XH......H.
+	0x0060 1c 24 48 8d 5c 24 30 48 89 5c 24 08 48 c7 44 24  .$H.\$0H.\$.H.D$
+	0x0070 10 00 00 00 00 e8 00 00 00 00 48 8b 4c 24 18 48  ..........H.L$.H
+	0x0080 8b 44 24 20 48 8b 5c 24 58 48 89 4c 24 38 48 89  .D$ H.\$XH.L$8H.
+	0x0090 0b 48 89 44 24 40 80 3d 00 00 00 00 00 75 2b 48  .H.D$@.=.....u+H
+	0x00a0 89 43 08 48 8b 5c 24 58 48 89 1c 24 48 8b 5c 24  .C.H.\$XH..$H.\$
+	0x00b0 60 48 89 5c 24 08 48 8b 5c 24 68 48 89 5c 24 10  `H.\$.H.\$hH.\$.
+	0x00c0 e8 00 00 00 00 48 83 c4 70 c3 4c 8d 43 08 4c 89  .....H..p.L.C.L.
+	0x00d0 04 24 48 89 44 24 08 e8 00 00 00 00 eb c5 89 03  .$H.D$..........
+	0x00e0 e9 5b ff ff ff e8 00 00 00 00 e9 11 ff ff ff cc  .[..............
+	rel 5+4 t=14 +0
+	rel 24+4 t=6 "".TestDefer+0
+	rel 90+4 t=13 type.int+0
+	rel 118+4 t=6 runtime.convT2E+0
+	rel 152+4 t=13 runtime.writeBarrier+-1
+	rel 193+4 t=6 fmt.Println+0
+	rel 216+4 t=6 runtime.writebarrierptr+0
+	rel 230+4 t=6 runtime.morestack_noctxt+0
+"".TestDefer t=1 size=176 value=0 args=0x8 locals=0x18
+	0x0000 00000 (main.go:10)	TEXT	"".TestDefer(SB), $24-8
+	0x0000 00000 (main.go:10)	MOVQ	(TLS), CX
+	0x0009 00009 (main.go:10)	CMPQ	SP, 16(CX)
+	0x000d 00013 (main.go:10)	JLS	161
+	0x0013 00019 (main.go:10)	SUBQ	$24, SP
+	0x0017 00023 (main.go:10)	FUNCDATA	$0, gclocals·5184031d3a32a42d85027f073f873668(SB)
+	0x0017 00023 (main.go:10)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0017 00023 (main.go:10)	MOVQ	$0, "".i+32(FP)
+	0x0020 00032 (main.go:10)	MOVQ	$0, "".i+32(FP)
+	0x0029 00041 (main.go:13)	LEAQ	"".i+32(FP), BX
+	0x002e 00046 (main.go:13)	MOVQ	BX, 16(SP)
+	0x0033 00051 (main.go:13)	MOVL	$8, (SP)
+	0x003a 00058 (main.go:13)	LEAQ	"".TestDefer.func1·f(SB), AX
+	0x0041 00065 (main.go:13)	MOVQ	AX, 8(SP)
+	0x0046 00070 (main.go:13)	PCDATA	$0, $0
+	0x0046 00070 (main.go:13)	CALL	runtime.deferproc(SB)
+	0x004b 00075 (main.go:13)	CMPL	AX, $0
+	0x004e 00078 (main.go:13)	JNE	$1, 150
+	0x0050 00080 (main.go:17)	LEAQ	"".i+32(FP), BX
+	0x0055 00085 (main.go:17)	MOVQ	BX, 16(SP)
+	0x005a 00090 (main.go:17)	MOVL	$8, (SP)
+	0x0061 00097 (main.go:17)	LEAQ	"".TestDefer.func2·f(SB), AX
+	0x0068 00104 (main.go:17)	MOVQ	AX, 8(SP)
+	0x006d 00109 (main.go:17)	PCDATA	$0, $0
+	0x006d 00109 (main.go:17)	CALL	runtime.deferproc(SB)
+	0x0072 00114 (main.go:17)	CMPL	AX, $0
+	0x0075 00117 (main.go:17)	JNE	$1, 139
+	0x0077 00119 (main.go:18)	MOVQ	$10, "".i+32(FP)
+	0x0080 00128 (main.go:19)	PCDATA	$0, $0
+	0x0080 00128 (main.go:19)	XCHGL	AX, AX
+	0x0081 00129 (main.go:19)	CALL	runtime.deferreturn(SB)
+	0x0086 00134 (main.go:19)	ADDQ	$24, SP
+	0x008a 00138 (main.go:19)	RET
+	0x008b 00139 (main.go:17)	PCDATA	$0, $0
+	0x008b 00139 (main.go:17)	XCHGL	AX, AX
+	0x008c 00140 (main.go:17)	CALL	runtime.deferreturn(SB)
+	0x0091 00145 (main.go:17)	ADDQ	$24, SP
+	0x0095 00149 (main.go:17)	RET
+	0x0096 00150 (main.go:13)	PCDATA	$0, $0
+	0x0096 00150 (main.go:13)	XCHGL	AX, AX
+	0x0097 00151 (main.go:13)	CALL	runtime.deferreturn(SB)
+	0x009c 00156 (main.go:13)	ADDQ	$24, SP
+	0x00a0 00160 (main.go:13)	RET
+	0x00a1 00161 (main.go:13)	NOP
+	0x00a1 00161 (main.go:10)	CALL	runtime.morestack_noctxt(SB)
+	0x00a6 00166 (main.go:10)	JMP	0
+	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 0f 86 8e  eH..%....H;a....
+	0x0010 00 00 00 48 83 ec 18 48 c7 44 24 20 00 00 00 00  ...H...H.D$ ....
+	0x0020 48 c7 44 24 20 00 00 00 00 48 8d 5c 24 20 48 89  H.D$ ....H.\$ H.
+	0x0030 5c 24 10 c7 04 24 08 00 00 00 48 8d 05 00 00 00  \$...$....H.....
+	0x0040 00 48 89 44 24 08 e8 00 00 00 00 83 f8 00 75 46  .H.D$.........uF
+	0x0050 48 8d 5c 24 20 48 89 5c 24 10 c7 04 24 08 00 00  H.\$ H.\$...$...
+	0x0060 00 48 8d 05 00 00 00 00 48 89 44 24 08 e8 00 00  .H......H.D$....
+	0x0070 00 00 83 f8 00 75 14 48 c7 44 24 20 0a 00 00 00  .....u.H.D$ ....
+	0x0080 90 e8 00 00 00 00 48 83 c4 18 c3 90 e8 00 00 00  ......H.........
+	0x0090 00 48 83 c4 18 c3 90 e8 00 00 00 00 48 83 c4 18  .H..........H...
+	0x00a0 c3 e8 00 00 00 00 e9 55 ff ff ff cc cc cc cc cc  .......U........
+	rel 5+4 t=14 +0
+	rel 61+4 t=13 "".TestDefer.func1·f+0
+	rel 71+4 t=6 runtime.deferproc+0
+	rel 100+4 t=13 "".TestDefer.func2·f+0
+	rel 110+4 t=6 runtime.deferproc+0
+	rel 130+4 t=6 runtime.deferreturn+0
+	rel 141+4 t=6 runtime.deferreturn+0
+	rel 152+4 t=6 runtime.deferreturn+0
+	rel 162+4 t=6 runtime.morestack_noctxt+0
+"".TestDefer.func1 t=1 size=16 value=0 args=0x8 locals=0x0
+	0x0000 00000 (main.go:11)	TEXT	"".TestDefer.func1(SB), $0-8
+	0x0000 00000 (main.go:11)	NOP
+	0x0000 00000 (main.go:11)	NOP
+	0x0000 00000 (main.go:11)	MOVQ	"".&i+8(FP), CX
+	0x0005 00005 (main.go:11)	FUNCDATA	$0, gclocals·87d20ce1b58390b294df80b886db78bf(SB)
+	0x0005 00005 (main.go:11)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0005 00005 (main.go:12)	MOVQ	(CX), BP
+	0x0008 00008 (main.go:12)	INCQ	BP
+	0x000b 00011 (main.go:12)	MOVQ	BP, (CX)
+	0x000e 00014 (main.go:12)	NOP
+	0x000e 00014 (main.go:13)	RET
+	0x0000 48 8b 4c 24 08 48 8b 29 48 ff c5 48 89 29 c3 cc  H.L$.H.)H..H.)..
+"".TestDefer.func2 t=1 size=16 value=0 args=0x8 locals=0x0
+	0x0000 00000 (main.go:15)	TEXT	"".TestDefer.func2(SB), $0-8
+	0x0000 00000 (main.go:15)	NOP
+	0x0000 00000 (main.go:15)	NOP
+	0x0000 00000 (main.go:15)	MOVQ	"".&i+8(FP), CX
+	0x0005 00005 (main.go:15)	FUNCDATA	$0, gclocals·87d20ce1b58390b294df80b886db78bf(SB)
+	0x0005 00005 (main.go:15)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0005 00005 (main.go:16)	MOVQ	(CX), BP
+	0x0008 00008 (main.go:16)	INCQ	BP
+	0x000b 00011 (main.go:16)	MOVQ	BP, (CX)
+	0x000e 00014 (main.go:16)	NOP
+	0x000e 00014 (main.go:17)	RET
+	0x0000 48 8b 4c 24 08 48 8b 29 48 ff c5 48 89 29 c3 cc  H.L$.H.)H..H.)..
+"".init t=1 size=80 value=0 args=0x0 locals=0x0
+	0x0000 00000 (main.go:20)	TEXT	"".init(SB), $0-0
+	0x0000 00000 (main.go:20)	MOVQ	(TLS), CX
+	0x0009 00009 (main.go:20)	CMPQ	SP, 16(CX)
+	0x000d 00013 (main.go:20)	JLS	67
+	0x000f 00015 (main.go:20)	NOP
+	0x000f 00015 (main.go:20)	NOP
+	0x000f 00015 (main.go:20)	FUNCDATA	$0, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x000f 00015 (main.go:20)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x000f 00015 (main.go:20)	MOVBQZX	"".initdone·(SB), BX
+	0x0016 00022 (main.go:20)	CMPB	BL, $0
+	0x0019 00025 (main.go:20)	JEQ	47
+	0x001b 00027 (main.go:20)	MOVBQZX	"".initdone·(SB), BX
+	0x0022 00034 (main.go:20)	CMPB	BL, $2
+	0x0025 00037 (main.go:20)	JNE	40
+	0x0027 00039 (main.go:20)	RET
+	0x0028 00040 (main.go:20)	PCDATA	$0, $0
+	0x0028 00040 (main.go:20)	CALL	runtime.throwinit(SB)
+	0x002d 00045 (main.go:20)	UNDEF
+	0x002f 00047 (main.go:20)	MOVB	$1, "".initdone·(SB)
+	0x0036 00054 (main.go:20)	PCDATA	$0, $0
+	0x0036 00054 (main.go:20)	CALL	fmt.init(SB)
+	0x003b 00059 (main.go:20)	MOVB	$2, "".initdone·(SB)
+	0x0042 00066 (main.go:20)	RET
+	0x0043 00067 (main.go:20)	NOP
+	0x0043 00067 (main.go:20)	CALL	runtime.morestack_noctxt(SB)
+	0x0048 00072 (main.go:20)	JMP	0
+	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 34 0f  eH..%....H;a.v4.
+	0x0010 b6 1d 00 00 00 00 80 fb 00 74 14 0f b6 1d 00 00  .........t......
+	0x0020 00 00 80 fb 02 75 01 c3 e8 00 00 00 00 0f 0b c6  .....u..........
+	0x0030 05 00 00 00 00 01 e8 00 00 00 00 c6 05 00 00 00  ................
+	0x0040 00 02 c3 e8 00 00 00 00 eb b6 cc cc cc cc cc cc  ................
+	rel 5+4 t=14 +0
+	rel 18+4 t=13 "".initdone·+0
+	rel 30+4 t=13 "".initdone·+0
+	rel 41+4 t=6 runtime.throwinit+0
+	rel 49+4 t=13 "".initdone·+-1
+	rel 55+4 t=6 fmt.init+0
+	rel 61+4 t=13 "".initdone·+-1
+	rel 68+4 t=6 runtime.morestack_noctxt+0
+type..hash.[1]interface {} t=1 dupok size=144 value=0 args=0x18 locals=0x28
+	0x0000 00000 (main.go:1)	TEXT	type..hash.[1]interface {}(SB), $40-24
+	0x0000 00000 (main.go:1)	MOVQ	(TLS), CX
+	0x0009 00009 (main.go:1)	CMPQ	SP, 16(CX)
+	0x000d 00013 (main.go:1)	JLS	127
+	0x000f 00015 (main.go:1)	SUBQ	$40, SP
+	0x0013 00019 (main.go:1)	MOVQ	"".h+56(FP), CX
+	0x0018 00024 (main.go:1)	FUNCDATA	$0, gclocals·0b86ef39f3fed835f14ba5f4d7c62fa2(SB)
+	0x0018 00024 (main.go:1)	FUNCDATA	$1, gclocals·33cdeccccebe80329f1fdbee7f5874cb(SB)
+	0x0018 00024 (main.go:1)	MOVQ	$0, AX
+	0x001a 00026 (main.go:1)	MOVQ	$1, "".autotmp_0009+24(SP)
+	0x0023 00035 (main.go:1)	MOVQ	"".autotmp_0009+24(SP), BP
+	0x0028 00040 (main.go:1)	CMPQ	AX, BP
+	0x002b 00043 (main.go:1)	JGE	$0, 113
+	0x002d 00045 (main.go:1)	MOVQ	AX, "".autotmp_0008+32(SP)
+	0x0032 00050 (main.go:1)	MOVQ	"".p+48(FP), BX
+	0x0037 00055 (main.go:1)	CMPQ	BX, $0
+	0x003b 00059 (main.go:1)	JEQ	$1, 123
+	0x003d 00061 (main.go:1)	MOVQ	AX, BP
+	0x0040 00064 (main.go:1)	SHLQ	$4, BP
+	0x0044 00068 (main.go:1)	ADDQ	BP, BX
+	0x0047 00071 (main.go:1)	MOVQ	BX, (SP)
+	0x004b 00075 (main.go:1)	MOVQ	CX, "".h+56(FP)
+	0x0050 00080 (main.go:1)	MOVQ	CX, 8(SP)
+	0x0055 00085 (main.go:1)	PCDATA	$0, $0
+	0x0055 00085 (main.go:1)	CALL	runtime.nilinterhash(SB)
+	0x005a 00090 (main.go:1)	MOVQ	16(SP), CX
+	0x005f 00095 (main.go:1)	MOVQ	"".autotmp_0008+32(SP), AX
+	0x0064 00100 (main.go:1)	INCQ	AX
+	0x0067 00103 (main.go:1)	MOVQ	"".autotmp_0009+24(SP), BP
+	0x006c 00108 (main.go:1)	CMPQ	AX, BP
+	0x006f 00111 (main.go:1)	JLT	$0, 45
+	0x0071 00113 (main.go:1)	MOVQ	CX, "".~r2+64(FP)
+	0x0076 00118 (main.go:1)	ADDQ	$40, SP
+	0x007a 00122 (main.go:1)	RET
+	0x007b 00123 (main.go:1)	MOVL	AX, (BX)
+	0x007d 00125 (main.go:1)	JMP	61
+	0x007f 00127 (main.go:1)	NOP
+	0x007f 00127 (main.go:1)	CALL	runtime.morestack_noctxt(SB)
+	0x0084 00132 (main.go:1)	JMP	0
+	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 76 70 48  eH..%....H;a.vpH
+	0x0010 83 ec 28 48 8b 4c 24 38 31 c0 48 c7 44 24 18 01  ..(H.L$81.H.D$..
+	0x0020 00 00 00 48 8b 6c 24 18 48 39 e8 7d 44 48 89 44  ...H.l$.H9.}DH.D
+	0x0030 24 20 48 8b 5c 24 30 48 83 fb 00 74 3e 48 89 c5  $ H.\$0H...t>H..
+	0x0040 48 c1 e5 04 48 01 eb 48 89 1c 24 48 89 4c 24 38  H...H..H..$H.L$8
+	0x0050 48 89 4c 24 08 e8 00 00 00 00 48 8b 4c 24 10 48  H.L$......H.L$.H
+	0x0060 8b 44 24 20 48 ff c0 48 8b 6c 24 18 48 39 e8 7c  .D$ H..H.l$.H9.|
+	0x0070 bc 48 89 4c 24 40 48 83 c4 28 c3 89 03 eb be e8  .H.L$@H..(......
+	0x0080 00 00 00 00 e9 77 ff ff ff cc cc cc cc cc cc cc  .....w..........
+	rel 5+4 t=14 +0
+	rel 86+4 t=6 runtime.nilinterhash+0
+	rel 128+4 t=6 runtime.morestack_noctxt+0
+type..eq.[1]interface {} t=1 dupok size=240 value=0 args=0x18 locals=0x58
+	0x0000 00000 (main.go:1)	TEXT	type..eq.[1]interface {}(SB), $88-24
+	0x0000 00000 (main.go:1)	MOVQ	(TLS), CX
+	0x0009 00009 (main.go:1)	CMPQ	SP, 16(CX)
+	0x000d 00013 (main.go:1)	JLS	225
+	0x0013 00019 (main.go:1)	SUBQ	$88, SP
+	0x0017 00023 (main.go:1)	FUNCDATA	$0, gclocals·3bb21ca8fe1d99a3e492463bd711418a(SB)
+	0x0017 00023 (main.go:1)	FUNCDATA	$1, gclocals·a8eabfc4a4514ed6b3b0c61e9680e440(SB)
+	0x0017 00023 (main.go:1)	MOVQ	$0, AX
+	0x0019 00025 (main.go:1)	MOVQ	$1, "".autotmp_0011+40(SP)
+	0x0022 00034 (main.go:1)	MOVQ	"".autotmp_0011+40(SP), BP
+	0x0027 00039 (main.go:1)	CMPQ	AX, BP
+	0x002a 00042 (main.go:1)	JGE	$0, 194
+	0x0030 00048 (main.go:1)	MOVQ	AX, "".autotmp_0010+48(SP)
+	0x0035 00053 (main.go:1)	MOVQ	"".q+104(FP), BX
+	0x003a 00058 (main.go:1)	CMPQ	BX, $0
+	0x003e 00062 (main.go:1)	JEQ	$1, 218
+	0x0044 00068 (main.go:1)	MOVQ	AX, BP
+	0x0047 00071 (main.go:1)	SHLQ	$4, BP
+	0x004b 00075 (main.go:1)	ADDQ	BP, BX
+	0x004e 00078 (main.go:1)	MOVQ	(BX), CX
+	0x0051 00081 (main.go:1)	MOVQ	8(BX), SI
+	0x0055 00085 (main.go:1)	MOVQ	"".p+96(FP), BX
+	0x005a 00090 (main.go:1)	CMPQ	BX, $0
+	0x005e 00094 (main.go:1)	JEQ	$1, 214
+	0x0060 00096 (main.go:1)	MOVQ	AX, BP
+	0x0063 00099 (main.go:1)	SHLQ	$4, BP
+	0x0067 00103 (main.go:1)	ADDQ	BP, BX
+	0x006a 00106 (main.go:1)	MOVQ	(BX), AX
+	0x006d 00109 (main.go:1)	MOVQ	8(BX), DX
+	0x0071 00113 (main.go:1)	CMPQ	AX, CX
+	0x0074 00116 (main.go:1)	JNE	204
+	0x0076 00118 (main.go:1)	MOVQ	AX, "".autotmp_0013+56(SP)
+	0x007b 00123 (main.go:1)	MOVQ	AX, (SP)
+	0x007f 00127 (main.go:1)	MOVQ	DX, "".autotmp_0013+64(SP)
+	0x0084 00132 (main.go:1)	MOVQ	DX, 8(SP)
+	0x0089 00137 (main.go:1)	MOVQ	CX, "".autotmp_0012+72(SP)
+	0x008e 00142 (main.go:1)	MOVQ	CX, 16(SP)
+	0x0093 00147 (main.go:1)	MOVQ	SI, "".autotmp_0012+80(SP)
+	0x0098 00152 (main.go:1)	MOVQ	SI, 24(SP)
+	0x009d 00157 (main.go:1)	PCDATA	$0, $0
+	0x009d 00157 (main.go:1)	CALL	runtime.efaceeq(SB)
+	0x00a2 00162 (main.go:1)	MOVBQZX	32(SP), BX
+	0x00a7 00167 (main.go:1)	CMPB	BL, $0
+	0x00aa 00170 (main.go:1)	JEQ	204
+	0x00ac 00172 (main.go:1)	MOVQ	"".autotmp_0010+48(SP), AX
+	0x00b1 00177 (main.go:1)	INCQ	AX
+	0x00b4 00180 (main.go:1)	MOVQ	"".autotmp_0011+40(SP), BP
+	0x00b9 00185 (main.go:1)	CMPQ	AX, BP
+	0x00bc 00188 (main.go:1)	JLT	$0, 48
+	0x00c2 00194 (main.go:1)	MOVB	$1, "".~r2+112(FP)
+	0x00c7 00199 (main.go:1)	ADDQ	$88, SP
+	0x00cb 00203 (main.go:1)	RET
+	0x00cc 00204 (main.go:1)	MOVB	$0, "".~r2+112(FP)
+	0x00d1 00209 (main.go:1)	ADDQ	$88, SP
+	0x00d5 00213 (main.go:1)	RET
+	0x00d6 00214 (main.go:1)	MOVL	AX, (BX)
+	0x00d8 00216 (main.go:1)	JMP	96
+	0x00da 00218 (main.go:1)	MOVL	AX, (BX)
+	0x00dc 00220 (main.go:1)	JMP	68
+	0x00e1 00225 (main.go:1)	NOP
+	0x00e1 00225 (main.go:1)	CALL	runtime.morestack_noctxt(SB)
+	0x00e6 00230 (main.go:1)	JMP	0
+	0x0000 65 48 8b 0c 25 00 00 00 00 48 3b 61 10 0f 86 ce  eH..%....H;a....
+	0x0010 00 00 00 48 83 ec 58 31 c0 48 c7 44 24 28 01 00  ...H..X1.H.D$(..
+	0x0020 00 00 48 8b 6c 24 28 48 39 e8 0f 8d 92 00 00 00  ..H.l$(H9.......
+	0x0030 48 89 44 24 30 48 8b 5c 24 68 48 83 fb 00 0f 84  H.D$0H.\$hH.....
+	0x0040 96 00 00 00 48 89 c5 48 c1 e5 04 48 01 eb 48 8b  ....H..H...H..H.
+	0x0050 0b 48 8b 73 08 48 8b 5c 24 60 48 83 fb 00 74 76  .H.s.H.\$`H...tv
+	0x0060 48 89 c5 48 c1 e5 04 48 01 eb 48 8b 03 48 8b 53  H..H...H..H..H.S
+	0x0070 08 48 39 c8 75 56 48 89 44 24 38 48 89 04 24 48  .H9.uVH.D$8H..$H
+	0x0080 89 54 24 40 48 89 54 24 08 48 89 4c 24 48 48 89  .T$@H.T$.H.L$HH.
+	0x0090 4c 24 10 48 89 74 24 50 48 89 74 24 18 e8 00 00  L$.H.t$PH.t$....
+	0x00a0 00 00 0f b6 5c 24 20 80 fb 00 74 20 48 8b 44 24  ....\$ ...t H.D$
+	0x00b0 30 48 ff c0 48 8b 6c 24 28 48 39 e8 0f 8c 6e ff  0H..H.l$(H9...n.
+	0x00c0 ff ff c6 44 24 70 01 48 83 c4 58 c3 c6 44 24 70  ...D$p.H..X..D$p
+	0x00d0 00 48 83 c4 58 c3 89 03 eb 86 89 03 e9 63 ff ff  .H..X........c..
+	0x00e0 ff e8 00 00 00 00 e9 15 ff ff ff cc cc cc cc cc  ................
+	rel 5+4 t=14 +0
+	rel 158+4 t=6 runtime.efaceeq+0
+	rel 226+4 t=6 runtime.morestack_noctxt+0
+gclocals·5ef976c2593056b9243adf402ae9d952 t=8 dupok size=20 value=0
+	0x0000 03 00 00 00 07 00 00 00 00 00 00 00 1c 00 00 00  ................
+	0x0010 0c 00 00 00                                      ....
+gclocals·7d2d5fca80364273fb07d5820a76fef4 t=8 dupok size=8 value=0
+	0x0000 03 00 00 00 00 00 00 00                          ........
+gclocals·33cdeccccebe80329f1fdbee7f5874cb t=8 dupok size=8 value=0
+	0x0000 01 00 00 00 00 00 00 00                          ........
+gclocals·5184031d3a32a42d85027f073f873668 t=8 dupok size=12 value=0
+	0x0000 01 00 00 00 01 00 00 00 00 00 00 00              ............
+gclocals·33cdeccccebe80329f1fdbee7f5874cb t=8 dupok size=8 value=0
+	0x0000 01 00 00 00 00 00 00 00                          ........
+gclocals·87d20ce1b58390b294df80b886db78bf t=8 dupok size=12 value=0
+	0x0000 01 00 00 00 01 00 00 00 01 00 00 00              ............
+gclocals·33cdeccccebe80329f1fdbee7f5874cb t=8 dupok size=8 value=0
+	0x0000 01 00 00 00 00 00 00 00                          ........
+gclocals·87d20ce1b58390b294df80b886db78bf t=8 dupok size=12 value=0
+	0x0000 01 00 00 00 01 00 00 00 01 00 00 00              ............
+gclocals·33cdeccccebe80329f1fdbee7f5874cb t=8 dupok size=8 value=0
+	0x0000 01 00 00 00 00 00 00 00                          ........
+gclocals·33cdeccccebe80329f1fdbee7f5874cb t=8 dupok size=8 value=0
+	0x0000 01 00 00 00 00 00 00 00                          ........
+"".initdone· t=31 size=1 value=0
+"".main·f t=8 dupok size=8 value=0
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 "".main+0
+"".TestDefer·f t=8 dupok size=8 value=0
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 "".TestDefer+0
+"".TestDefer.func1·f t=8 dupok size=8 value=0
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 "".TestDefer.func1+0
+"".TestDefer.func2·f t=8 dupok size=8 value=0
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 "".TestDefer.func2+0
+"".init·f t=8 dupok size=8 value=0
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 "".init+0
+runtime.gcbits.03 t=8 dupok size=1 value=0
+	0x0000 03                                               .
+go.string.hdr."interface {}" t=8 dupok size=16 value=0
+	0x0000 00 00 00 00 00 00 00 00 0c 00 00 00 00 00 00 00  ................
+	rel 0+8 t=1 go.string."interface {}"+0
+go.string."interface {}" t=8 dupok size=16 value=0
+	0x0000 69 6e 74 65 72 66 61 63 65 20 7b 7d 00           interface {}.
+type.interface {} t=8 dupok size=88 value=0
+	0x0000 10 00 00 00 00 00 00 00 10 00 00 00 00 00 00 00  ................
+	0x0010 e7 57 a0 18 00 08 08 14 00 00 00 00 00 00 00 00  .W..............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.algarray+256
+	rel 32+8 t=1 runtime.gcbits.03+0
+	rel 40+8 t=1 go.string.hdr."interface {}"+0
+	rel 56+8 t=1 go.weak.type.*interface {}+0
+	rel 64+8 t=1 type.interface {}+88
+runtime.gcbits.01 t=8 dupok size=1 value=0
+	0x0000 01                                               .
+go.string.hdr."[]interface {}" t=8 dupok size=16 value=0
+	0x0000 00 00 00 00 00 00 00 00 0e 00 00 00 00 00 00 00  ................
+	rel 0+8 t=1 go.string."[]interface {}"+0
+go.string."[]interface {}" t=8 dupok size=16 value=0
+	0x0000 5b 5d 69 6e 74 65 72 66 61 63 65 20 7b 7d 00     []interface {}.
+type.[]interface {} t=8 dupok size=72 value=0
+	0x0000 18 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 70 93 ea 2f 00 08 08 17 00 00 00 00 00 00 00 00  p../............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.algarray+272
+	rel 32+8 t=1 runtime.gcbits.01+0
+	rel 40+8 t=1 go.string.hdr."[]interface {}"+0
+	rel 56+8 t=1 go.weak.type.*[]interface {}+0
+	rel 64+8 t=1 type.interface {}+0
+go.typelink.[]interface {}	[]interface {} t=8 dupok size=8 value=0
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 type.[]interface {}+0
+gclocals·33cdeccccebe80329f1fdbee7f5874cb t=8 dupok size=8 value=0
+	0x0000 01 00 00 00 00 00 00 00                          ........
+gclocals·0b86ef39f3fed835f14ba5f4d7c62fa2 t=8 dupok size=12 value=0
+	0x0000 01 00 00 00 03 00 00 00 01 00 00 00              ............
+gclocals·a8eabfc4a4514ed6b3b0c61e9680e440 t=8 dupok size=12 value=0
+	0x0000 01 00 00 00 04 00 00 00 00 00 00 00              ............
+gclocals·3bb21ca8fe1d99a3e492463bd711418a t=8 dupok size=12 value=0
+	0x0000 01 00 00 00 03 00 00 00 03 00 00 00              ............
+type..hashfunc.[1]interface {} t=8 dupok size=8 value=0
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 type..hash.[1]interface {}+0
+type..eqfunc.[1]interface {} t=8 dupok size=8 value=0
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 type..eq.[1]interface {}+0
+type..alg.[1]interface {} t=8 dupok size=16 value=0
+	0x0000 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	rel 0+8 t=1 type..hashfunc.[1]interface {}+0
+	rel 8+8 t=1 type..eqfunc.[1]interface {}+0
+go.string.hdr."[1]interface {}" t=8 dupok size=16 value=0
+	0x0000 00 00 00 00 00 00 00 00 0f 00 00 00 00 00 00 00  ................
+	rel 0+8 t=1 go.string."[1]interface {}"+0
+go.string."[1]interface {}" t=8 dupok size=16 value=0
+	0x0000 5b 31 5d 69 6e 74 65 72 66 61 63 65 20 7b 7d 00  [1]interface {}.
+type.[1]interface {} t=8 dupok size=88 value=0
+	0x0000 10 00 00 00 00 00 00 00 10 00 00 00 00 00 00 00  ................
+	0x0010 50 91 5b fa 00 08 08 11 00 00 00 00 00 00 00 00  P.[.............
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0050 01 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 type..alg.[1]interface {}+0
+	rel 32+8 t=1 runtime.gcbits.03+0
+	rel 40+8 t=1 go.string.hdr."[1]interface {}"+0
+	rel 56+8 t=1 go.weak.type.*[1]interface {}+0
+	rel 64+8 t=1 type.interface {}+0
+	rel 72+8 t=1 type.[]interface {}+0
+go.typelink.[1]interface {}	[1]interface {} t=8 dupok size=8 value=0
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 type.[1]interface {}+0
+go.string.hdr."*[1]interface {}" t=8 dupok size=16 value=0
+	0x0000 00 00 00 00 00 00 00 00 10 00 00 00 00 00 00 00  ................
+	rel 0+8 t=1 go.string."*[1]interface {}"+0
+go.string."*[1]interface {}" t=8 dupok size=24 value=0
+	0x0000 2a 5b 31 5d 69 6e 74 65 72 66 61 63 65 20 7b 7d  *[1]interface {}
+	0x0010 00                                               .
+type.*[1]interface {} t=8 dupok size=72 value=0
+	0x0000 08 00 00 00 00 00 00 00 08 00 00 00 00 00 00 00  ................
+	0x0010 bf 03 a8 35 00 08 08 36 00 00 00 00 00 00 00 00  ...5...6........
+	0x0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0030 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+	0x0040 00 00 00 00 00 00 00 00                          ........
+	rel 24+8 t=1 runtime.algarray+80
+	rel 32+8 t=1 runtime.gcbits.01+0
+	rel 40+8 t=1 go.string.hdr."*[1]interface {}"+0
+	rel 56+8 t=1 go.weak.type.**[1]interface {}+0
+	rel 64+8 t=1 type.[1]interface {}+0
+go.string.hdr."fmt" t=8 dupok size=16 value=0
+	0x0000 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00  ................
+	rel 0+8 t=1 go.string."fmt"+0
+go.string."fmt" t=8 dupok size=8 value=0
+	0x0000 66 6d 74 00                                      fmt.
+go.importpath.fmt. t=8 dupok size=16 value=0
+	0x0000 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00  ................
+	rel 0+8 t=1 go.string."fmt"+0
+type..hash.[1]interface {}·f t=8 dupok size=8 value=0
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 type..hash.[1]interface {}+0
+type..eq.[1]interface {}·f t=8 dupok size=8 value=0
+	0x0000 00 00 00 00 00 00 00 00                          ........
+	rel 0+8 t=1 type..eq.[1]interface {}+0
