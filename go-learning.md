@@ -44,11 +44,16 @@
 3. return语句的解析
 4. defer原理
 5. panic/recover
-6. goroutine原理
+6. goroutine原理, [go scheduler](http://www.cs.columbia.edu/~aho/cs6998/reports/12-12-11_DeshpandeSponslerWeiss_GO.pdf)
 
 ## 7.go标准库
 
 1. sync
 2. reflect
+
+## 8. go tool
+
+1. pprof
+2. Env
 
 
