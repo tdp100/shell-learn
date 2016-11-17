@@ -56,4 +56,7 @@
 1. pprof
 2. Env
 
+## 9. scheduler
+
+1. [Linux 2.6 CFS](http://www.ibm.com/developerworks/library/l-completely-fair-scheduler/l-completely-fair-scheduler-pdf.pdf)
 
