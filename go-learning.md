@@ -64,3 +64,4 @@
 ## 10. concurrency
 
 1. [Golang concurrency - data races](http://wysocki.in/golang-concurrency-data-races/)
+2. [C. A. R. Hoare Communicating Sequential Processes](http://usingcsp.com/cspbook.pdf)
