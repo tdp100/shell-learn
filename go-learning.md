@@ -60,3 +60,7 @@
 
 1. [Linux 2.6 CFS](http://www.ibm.com/developerworks/library/l-completely-fair-scheduler/l-completely-fair-scheduler-pdf.pdf)
 2. [Con Kolivas's blog](http://ck-hack.blogspot.com/)
+
+## 10. concurrency
+
+1. [Golang concurrency - data races](http://wysocki.in/golang-concurrency-data-races/)
