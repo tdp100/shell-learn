@@ -26,6 +26,8 @@ https://en.wikipedia.org/wiki/Software_design_pattern
 
 thoughtworks: https://www.thoughtworks.com/insights
 
+论文检索网：http://www.sciencedirect.com/
+
 牛人的博客：http://kief.com/  软件交付
 
 devops: https://sdarchitect.wordpress.com/2012/07/24/understanding-devops-part-1-defining-devops/
