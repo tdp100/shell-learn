@@ -65,4 +65,4 @@
 
 1. [Golang concurrency - data races](http://wysocki.in/golang-concurrency-data-races/)
 2. [C. A. R. Hoare Communicating Sequential Processes](http://usingcsp.com/cspbook.pdf)
-3. [Systems Performance: Enterprise and the Cloud](http://35a2c64763da4cca8fd.a.it-ebooks.directory/e-books/prentice-hall/Prentice.Hall.Systems.Performance.Aug.2013.ISBN.0133390098.pdf?l=P8o6VvBJq0Mybs1B5NK3NQ&t=1479970561)
+3. [Systems Performance: Enterprise and the Cloud](http://www.brendangregg.com/books.html)
