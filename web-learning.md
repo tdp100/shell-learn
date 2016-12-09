@@ -5,6 +5,12 @@
 
 ## 会话分离
 
+## HTTPS/TLS/TCP
+
+1. [协议流程图](http://www.eventhelix.com/RealtimeMantra/Networking/#.WEonubJ95hE)
+2. [ssl_intro](https://httpd.apache.org/docs/2.4/ssl/ssl_intro.html)
+3. SSL协议
+
 ## 参考书籍
 
 + [1] Professional Website Performance: Optimizing the Front-End and Back-End by Peter Smith;
