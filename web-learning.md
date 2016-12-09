@@ -11,6 +11,7 @@
 2. [ssl_intro](https://httpd.apache.org/docs/2.4/ssl/ssl_intro.html)
 3. [SSL协议](https://www.ssl.com/article/ssl-tls-handshake-overview/)
 4. [单向/双向认证](http://www.ibm.com/support/knowledgecenter/SSMP7V_4.6.0/com.ibm.itim.infocenter.doc/cpt/cpt_ic_security_ssl_authent.html)
+5. [openssl 作为证书服务器](https://jamielinux.com/docs/openssl-certificate-authority/index.html)
 
 ## 参考书籍
 
