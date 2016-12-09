@@ -9,7 +9,8 @@
 
 1. [协议流程图](http://www.eventhelix.com/RealtimeMantra/Networking/#.WEonubJ95hE)
 2. [ssl_intro](https://httpd.apache.org/docs/2.4/ssl/ssl_intro.html)
-3. SSL协议
+3. [SSL协议](https://www.ssl.com/article/ssl-tls-handshake-overview/)
+4. [单向/双向认证](http://www.ibm.com/support/knowledgecenter/SSMP7V_4.6.0/com.ibm.itim.infocenter.doc/cpt/cpt_ic_security_ssl_authent.html)
 
 ## 参考书籍
 
