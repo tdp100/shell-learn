@@ -8,7 +8,7 @@
 
 + NAS: [YANFS](https://blogs.oracle.com/shepler/entry/yanfs_is_the_new_webnfs)、NFS-SUN microsystem、SMB
 + DAS: [iSCSI-IBM](http://searchstorage.techtarget.com/definition/iSCSI)、SATA
-+ SAN: FC、iSCSI
++ SAN: [FC](http://searchstorage.techtarget.com/definition/Fibre-Channel)、iSCSI
 
 ## 云存储
 
