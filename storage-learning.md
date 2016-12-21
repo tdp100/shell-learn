@@ -7,7 +7,7 @@
 ## 存储协议
 
 + NAS: [YANFS](https://blogs.oracle.com/shepler/entry/yanfs_is_the_new_webnfs)、NFS、SMB
-+ DAS: iSCSI、SATA
++ DAS: [iSCSI](http://searchstorage.techtarget.com/definition/iSCSI)、SATA
 + SAN: FC、iSCSI
 
 ## 云存储
