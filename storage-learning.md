@@ -6,7 +6,7 @@
 
 ## 存储协议
 
-+ NAS: NFS、SMB
++ NAS: [YANFS](https://blogs.oracle.com/shepler/entry/yanfs_is_the_new_webnfs)、NFS、SMB
 + DAS: iSCSI、SATA
 + SAN: FC、iSCSI
 
@@ -17,3 +17,5 @@
 + 实例存储：可以用DAS实现，也可以用NAS或者卷存储
 + 卷存储：SAN，用NFS或者iSCSI实现
 + 对象存储：NAS， 对象存储提供最终的一致性，并且对高时延的WAN连接进行优化。由于对象存储的规模优势和成本优势，很多云环境采用对象存储来代替NAS。但对象存储这种弱一致性并不适合所有的场景，很多随机负载，对强一致性和性能都有要求，还是需要采用实例或者卷存储模型。
+
+
