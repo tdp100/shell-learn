@@ -8,7 +8,7 @@
 
 ## 存储协议
 
-+ NAS: [YANFS](https://blogs.oracle.com/shepler/entry/yanfs_is_the_new_webnfs)、NFS-SUN microsystem、SMB
++ NAS: [YANFS](https://blogs.oracle.com/shepler/entry/yanfs_is_the_new_webnfs)、NFS-SUN microsystem、[SMB-microsoft](http://searchnetworking.techtarget.com/definition/Server-Message-Block-Protocol)
 + DAS: [iSCSI-IBM](http://searchstorage.techtarget.com/definition/iSCSI)、SATA
 + SAN: [FC](http://searchstorage.techtarget.com/definition/Fibre-Channel)、iSCSI
 
