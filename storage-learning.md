@@ -21,3 +21,7 @@
 + 对象存储：NAS， 对象存储提供最终的一致性，并且对高时延的WAN连接进行优化。由于对象存储的规模优势和成本优势，很多云环境采用对象存储来代替NAS。但对象存储这种弱一致性并不适合所有的场景，很多随机负载，对强一致性和性能都有要求，还是需要采用实例或者卷存储模型。
 
 ## [NAS和SAN的区别](http://searchstorage.techtarget.com/answer/SAN-vs-NAS-A-diagram-of-the-differences)
+
+## 论文
+
++ [CACSS: TOWARDS A GENERIC CLOUD STORAGE SERVICE](http://www.leonli.co.uk/blog/wp-content/uploads/2012/05/CACSS-TOWARDS-A-GENERIC-CLOUD-STORAGE-SERVICE.pdf)
