@@ -25,3 +25,7 @@
 ## 论文
 
 + [CACSS: TOWARDS A GENERIC CLOUD STORAGE SERVICE](http://www.leonli.co.uk/blog/wp-content/uploads/2012/05/CACSS-TOWARDS-A-GENERIC-CLOUD-STORAGE-SERVICE.pdf)
+
+## 博客
+
++ [Werner Vogels(CTO - Amazon.com)](http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html)
