@@ -1,5 +1,21 @@
-confd
+[confd](https://github.com/kelseyhightower/confd)
 -------------------------------
 
 confd是一个轻量级的配置监控工具，它可以支持多种backends配置工具，比如分布式key/value存储软件etcd和zookeeper。它backends发生配置变更时，它能够监控并更新配置文件，同时执行脚本让application重启加载新的配置文件
 
+### 原理
+
+backends提供key/value存储能力，以etcd为例，它采用Raft算法实现分布式key/value存储，并且保持强一致性。可以使用etcdctl工具对键值进行增删查改操作。而confd周期性地监控etcd变化。一旦配置发生变化，confd将更新模板配置文件，并将配置文件输出到dest目录，让application重新加载。
+
+### confd组成
+
+1. [toml](https://github.com/toml-lang/toml)配置语言
+
+toml和yaml、json类似，提供简洁的语法来描述配置规则。confd支持在定义template resource的toml文件，在该template resource文件中可以定义`[template]`标签，具体见：https://github.com/kelseyhightower/confd/blob/master/docs/template-resources.md， 在`[template]`中的src指定的source template文件采用go语言的template语法。
+
+2. 目录结构
+默认的template resource toml文件放在/etc/confd/conf.d目录下，而source template文件则放在/etc/confd/templates目录中。具体参见：https://github.com/kelseyhightower/confd/blob/master/docs/quick-start-guide.md 
+
+### application使用
+
+application的配置文件需要是toml格式，所以需要toml解析包来解析toml语法并读取配置内容。
