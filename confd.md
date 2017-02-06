@@ -27,3 +27,9 @@ application的配置文件需要是toml格式，所以需要toml解析包来解�
 1. alibaba开源的webx中提供的辅助工具[autoconfig](http://openwebx.org/docs/autoconfig.html)， 服务本身提供配置管理功能
 
 2. [灰度发布与A/B Testing](http://www.jianshu.com/p/88f206f48278)
+
+### 5. 功能开关
+
+1. 第一种：服务提供功能开关，一旦开启或者关闭功能开关后，对所有用户生效
+2. 第二种：类似于Gmail labs的窗口，用户可以选择使用或者关闭该功能。功能开关由用户自己决定
+3. 第三种：A/B Test，服务新功能只让一部分人可用，当用户反馈好时再逐渐扩大部署范围。
