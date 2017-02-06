@@ -28,6 +28,8 @@ application的配置文件需要是toml格式，所以需要toml解析包来解�
 
 2. [灰度发布与A/B Testing](http://www.jianshu.com/p/88f206f48278)
 
+3. [ansible playbook](http://docs.ansible.com/ansible/playbooks.html). 它提供了变量可以用于替换playbook中的引用
+
 ### 5. 功能开关
 
 1. 第一种：服务提供功能开关，一旦开启或者关闭功能开关后，对所有用户生效
