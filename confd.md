@@ -11,10 +11,11 @@ backends提供key/value存储能力，以etcd为例，它采用Raft算法实现�
 
 1. [toml](https://github.com/toml-lang/toml)配置语言
 
-toml和yaml、json类似，提供简洁的语法来描述配置规则。confd支持在定义template resource的toml文件，在该template resource文件中可以定义`[template]`标签，具体见：https://github.com/kelseyhightower/confd/blob/master/docs/template-resources.md， 在`[template]`中的src指定的source template文件采用go语言的template语法。
+   toml和yaml、json类似，提供简洁的语法来描述配置规则。confd支持在定义template resource的toml文件，在该template resource文件中可以定义`[template]`标签，具体见：https://github.com/kelseyhightower/confd/blob/master/docs/template-resources.md， 在`[template]`中的src指定的source template文件采用go语言的template语法。
 
 2. 目录结构
-默认的template resource toml文件放在/etc/confd/conf.d目录下，而source template文件则放在/etc/confd/templates目录中。具体参见：https://github.com/kelseyhightower/confd/blob/master/docs/quick-start-guide.md 
+   
+   默认的template resource toml文件放在/etc/confd/conf.d目录下，而source template文件则放在/etc/confd/templates目录中。具体参见：https://github.com/kelseyhightower/confd/blob/master/docs/quick-start-guide.md 
 
 ### application使用
 
