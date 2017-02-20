@@ -26,6 +26,7 @@
 
 + [CACSS: TOWARDS A GENERIC CLOUD STORAGE SERVICE](http://www.leonli.co.uk/blog/wp-content/uploads/2012/05/CACSS-TOWARDS-A-GENERIC-CLOUD-STORAGE-SERVICE.pdf)
 + [Google File System Paper](https://static.googleusercontent.com/media/research.google.com/zh-CN//archive/gfs-sosp2003.pdf)
++ [GFS 中文版](http://blog.bizcloudsoft.com/wp-content/uploads/Google-File-System%E4%B8%AD%E6%96%87%E7%89%88_1.0.pdf)
 
 ## 博客
 
