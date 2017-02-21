@@ -31,3 +31,4 @@
 ## 博客
 
 + [Werner Vogels(CTO - Amazon.com)](http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html)
++ [存储系统的那些事-许式伟](http://www.infoq.com/cn/articles/storage-system-stuff)
