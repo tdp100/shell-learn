@@ -28,6 +28,10 @@
 + [Google File System Paper](https://static.googleusercontent.com/media/research.google.com/zh-CN//archive/gfs-sosp2003.pdf)
 + [GFS 中文版](http://blog.bizcloudsoft.com/wp-content/uploads/Google-File-System%E4%B8%AD%E6%96%87%E7%89%88_1.0.pdf)
 
+## 其它
+
++  [从Maglev到Vortex，揭秘100G＋线速负载均衡的设计与实现](http://www.infoq.com/cn/articles/Maglev-Vortex)
+
 ## 博客
 
 + [Werner Vogels(CTO - Amazon.com)](http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html)
