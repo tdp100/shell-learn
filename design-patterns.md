@@ -34,6 +34,8 @@ devops: https://sdarchitect.wordpress.com/2012/07/24/understanding-devops-part-1
 
 http://martinfowler.com/
 
+[USENIX研讨会（NSDI ‘16）](https://www.usenix.org/)
+
 优秀的科技公司：
 
 1. netflix: http://techblog.netflix.com
