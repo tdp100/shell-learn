@@ -31,6 +31,7 @@
 ## 其它
 
 +  [从Maglev到Vortex，揭秘100G＋线速负载均衡的设计与实现](http://www.infoq.com/cn/articles/Maglev-Vortex)
++  [Maglev论文](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44824.pdf)
 
 ## 博客
 
