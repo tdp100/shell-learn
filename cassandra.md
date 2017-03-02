@@ -26,3 +26,9 @@ it might be more helpful to think of it as an indexed, row-oriented store
 Cassandra stores data in what can be thought of for now as a multidimensional hash
 table. That means you don’t have to decide ahead of time precisely what your data
 structure must look like, or what fields your records will need
+
+## keyspace and column families
+Cassandra requires you to define an outer container, called a keyspace, that contains
+column families. The keyspace is essentially just a logical namespace to hold column
+families and certain configuration properties. The column families are names for associated
+data and a sort order
