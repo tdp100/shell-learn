@@ -17,3 +17,12 @@ allows you to decide how many replicas in the cluster must acknowledge a write o
 or respond to a read operation in order to be considered successful. That’s the
 part where Cassandra has pushed the decision for determining consistency out to the
 client.
+
+## Row-Oriented
+Each row has a unique key, which makes its data
+accessible. So although it’s not wrong to say that Cassandra is columnar or columnoriented,
+it might be more helpful to think of it as an indexed, row-oriented store
+
+Cassandra stores data in what can be thought of for now as a multidimensional hash
+table. That means you don’t have to decide ahead of time precisely what your data
+structure must look like, or what fields your records will need
