@@ -42,3 +42,14 @@ Cassandra has out-of-the-box support for geographical distribution of data. You 
 easily configure Cassandra to replicate data across multiple data centers. If you have a
 globally deployed application that could see a performance benefit from putting the
 data near the user, Cassandra could be a great fit.
+
+http://www.infoq.com/cn/articles/virtual-forum-three-basic-issues-about-distributed-storage
+权衡的因素有很多——可靠性要求、可用性要求、时延要求、一致性要求、使用模式相关要求（包括请求大小、QPS/IOPS、吞吐）等。
+
+比如：
+
+对于块存储，要求的访问时延是 10ms 级的，因为给虚拟机用的，传统硬盘也是10ms 级的时延，请求尺寸都很小，但qps（iops）可能会很高，那么在这种情况下：
+异地多中心是不现实的，存储要和主机尽量接近，相应地可靠性必然会有所打折
+强一致副本不会过多，强一致要求对时延有影响
+对于对象存储，要求的访问时延是 100ms - 1s 级的，请求一般是中到大尺寸，低 qps 的，在这种情况下
+可以用更多的分散副本数来换取更高的可靠性，但过多副本增加维持一致性的难度，需要折衷
