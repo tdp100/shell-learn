@@ -36,3 +36,9 @@ data and a sort order
 ## Lots of writes
 These are strong use cases for Cassandra because they involve lots of writing with less
 predictable read operations
+
+## Geographical Distribution
+Cassandra has out-of-the-box support for geographical distribution of data. You can
+easily configure Cassandra to replicate data across multiple data centers. If you have a
+globally deployed application that could see a performance benefit from putting the
+data near the user, Cassandra could be a great fit.
