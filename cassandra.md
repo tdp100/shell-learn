@@ -32,3 +32,7 @@ Cassandra requires you to define an outer container, called a keyspace, that con
 column families. The keyspace is essentially just a logical namespace to hold column
 families and certain configuration properties. The column families are names for associated
 data and a sort order
+
+## Lots of writes
+These are strong use cases for Cassandra because they involve lots of writing with less
+predictable read operations
