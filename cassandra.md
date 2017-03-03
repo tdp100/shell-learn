@@ -43,6 +43,12 @@ easily configure Cassandra to replicate data across multiple data centers. If yo
 globally deployed application that could see a performance benefit from putting the
 data near the user, Cassandra could be a great fit.
 
+## Cluster(ring)
+the outermost structure in Cassandra is the cluster, sometimes called the
+ring, because Cassandra assigns data to nodes in the cluster by arranging them in
+a ring.
+
+## 公式
 http://www.infoq.com/cn/articles/virtual-forum-three-basic-issues-about-distributed-storage
 权衡的因素有很多——可靠性要求、可用性要求、时延要求、一致性要求、使用模式相关要求（包括请求大小、QPS/IOPS、吞吐）等。
 
