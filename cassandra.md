@@ -59,3 +59,7 @@ http://www.infoq.com/cn/articles/virtual-forum-three-basic-issues-about-distribu
 强一致副本不会过多，强一致要求对时延有影响
 对于对象存储，要求的访问时延是 100ms - 1s 级的，请求一般是中到大尺寸，低 qps 的，在这种情况下
 可以用更多的分散副本数来换取更高的可靠性，但过多副本增加维持一致性的难度，需要折衷
+
+## 参考
+
+1. Cassandra The Definitive Guide.pdf
