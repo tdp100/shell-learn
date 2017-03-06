@@ -64,3 +64,4 @@ http://www.infoq.com/cn/articles/virtual-forum-three-basic-issues-about-distribu
 
 1. Cassandra The Definitive Guide.pdf
 2. [Facebook’s Cassandra paper, annotated and compared to Apache Cassandra 2.0](http://docs.datastax.com/en/articles/cassandra/cassandrathenandnow.html)
+3. [Cassandra - A Decentralized Structured Storage System, ppt facebook](https://cseweb.ucsd.edu/classes/fa16/cse291-g/applications/ln/Cassandra.pdf)
