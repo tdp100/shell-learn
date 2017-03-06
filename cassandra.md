@@ -63,3 +63,4 @@ http://www.infoq.com/cn/articles/virtual-forum-three-basic-issues-about-distribu
 ## 参考
 
 1. Cassandra The Definitive Guide.pdf
+2. [Facebook’s Cassandra paper, annotated and compared to Apache Cassandra 2.0](http://docs.datastax.com/en/articles/cassandra/cassandrathenandnow.html)
