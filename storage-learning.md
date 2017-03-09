@@ -27,6 +27,14 @@
 + [CACSS: TOWARDS A GENERIC CLOUD STORAGE SERVICE](http://www.leonli.co.uk/blog/wp-content/uploads/2012/05/CACSS-TOWARDS-A-GENERIC-CLOUD-STORAGE-SERVICE.pdf)
 + [Google File System Paper](https://static.googleusercontent.com/media/research.google.com/zh-CN//archive/gfs-sosp2003.pdf)
 + [GFS 中文版](http://blog.bizcloudsoft.com/wp-content/uploads/Google-File-System%E4%B8%AD%E6%96%87%E7%89%88_1.0.pdf)
++ [存储系统的那些事 许式伟]( http://www.infoq.com/cn/articles/storage-system-stuff)
+2. 虚拟座谈会：有关分布式存储的三个基本问题 http://www.infoq.com/cn/articles/virtual-forum-three-basic-issues-about-distributed-storage
+3. Hadoop http://blog.csdn.net/runningtortoises/article/details/51589918
+4. Erasure Coding in Windows Azure Storage, Microsoft Corporation, https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/LRC12-cheng20webpage.pdf
+5. Erasure Coding vs. Replication: A Quantitative Comparison, Hakim Weatherspoon and John D. Kubiatowicz, https://oceanstore.cs.berkeley.edu/publications/papers/pdf/erasure_iptps.pdf
+6. Failure Trends in a Large Disk Drive Population, Google Inc, https://static.googleusercontent.com/media/research.google.com/zh-CN//archive/disk_failures.pdf
+7. xp的分布式系统系列教程之: Erasure-Code: 工作原理, 数学解释, 实践和分析. http://drmingdrmer.github.io/tech/distributed/2017/02/01/ec.html
+8. Amazon S3 Data Consistency Model https://docs.aws.amazon.com/AmazonS3/latest/dev/Introduction.html
 
 ## 其它
 
