@@ -40,6 +40,7 @@
 
 +  [从Maglev到Vortex，揭秘100G＋线速负载均衡的设计与实现](http://www.infoq.com/cn/articles/Maglev-Vortex)
 +  [Maglev论文](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44824.pdf)
++  [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2005/lecture-notes/)
 
 ## 博客
 
