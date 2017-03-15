@@ -35,7 +35,7 @@
 6. Failure Trends in a Large Disk Drive Population, Google Inc, https://static.googleusercontent.com/media/research.google.com/zh-CN//archive/disk_failures.pdf
 7. xp的分布式系统系列教程之: Erasure-Code: 工作原理, 数学解释, 实践和分析. http://drmingdrmer.github.io/tech/distributed/2017/02/01/ec.html
 8. Amazon S3 Data Consistency Model https://docs.aws.amazon.com/AmazonS3/latest/dev/Introduction.html
-
+9. [WORM-THE USE OF WRITE-ONCE READ-MANY OPTICAL DISKS FOR TEMPORARY AND ARCHIVAL STORAGE](https://pubs.usgs.gov/of/1992/0036/report.pdf)
 ## 其它
 
 +  [从Maglev到Vortex，揭秘100G＋线速负载均衡的设计与实现](http://www.infoq.com/cn/articles/Maglev-Vortex)
