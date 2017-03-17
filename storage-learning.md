@@ -36,11 +36,14 @@
 7. xp的分布式系统系列教程之: Erasure-Code: 工作原理, 数学解释, 实践和分析. http://drmingdrmer.github.io/tech/distributed/2017/02/01/ec.html
 8. Amazon S3 Data Consistency Model https://docs.aws.amazon.com/AmazonS3/latest/dev/Introduction.html
 9. [WORM-THE USE OF WRITE-ONCE READ-MANY OPTICAL DISKS FOR TEMPORARY AND ARCHIVAL STORAGE](https://pubs.usgs.gov/of/1992/0036/report.pdf)
+10. [Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency ](http://sigops.org/sosp/sosp11/current/2011-Cascais/printable/11-calder.pdf)
+11. [SOSP Paper – Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency](https://blogs.msdn.microsoft.com/windowsazurestorage/2011/11/20/sosp-paper-windows-azure-storage-a-highly-available-cloud-storage-service-with-strong-consistency/)
 ## 其它
 
 +  [从Maglev到Vortex，揭秘100G＋线速负载均衡的设计与实现](http://www.infoq.com/cn/articles/Maglev-Vortex)
 +  [Maglev论文](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44824.pdf)
 +  [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2005/lecture-notes/)
++  [23rd ACM Symposium on Operating Systems Principles (SOSP)](http://sosp2011.gsd.inesc-id.pt/)
 
 ## 博客
 
