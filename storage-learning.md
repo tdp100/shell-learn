@@ -45,6 +45,10 @@
 +  [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2005/lecture-notes/)
 +  [23rd ACM Symposium on Operating Systems Principles (SOSP)](http://sosp2011.gsd.inesc-id.pt/)
 
+## 会议
+
++ [usenix hotstorage16](https://www.usenix.org/conference/hotstorage16/workshop-program)
+
 ## 博客
 
 + [Werner Vogels(CTO - Amazon.com)](http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html)
