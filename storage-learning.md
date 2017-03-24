@@ -38,6 +38,9 @@
 9. [WORM-THE USE OF WRITE-ONCE READ-MANY OPTICAL DISKS FOR TEMPORARY AND ARCHIVAL STORAGE](https://pubs.usgs.gov/of/1992/0036/report.pdf)
 10. [Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency ](http://sigops.org/sosp/sosp11/current/2011-Cascais/printable/11-calder.pdf)
 11. [SOSP Paper – Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency](https://blogs.msdn.microsoft.com/windowsazurestorage/2011/11/20/sosp-paper-windows-azure-storage-a-highly-available-cloud-storage-service-with-strong-consistency/)
+12. [paxos-made-simple](https://www.microsoft.com/en-us/research/publication/paxos-made-simple/)
+13. [algorithms](https://www.microsoft.com/en-us/research/research-area/algorithms/)
+
 ## 其它
 
 +  [从Maglev到Vortex，揭秘100G＋线速负载均衡的设计与实现](http://www.infoq.com/cn/articles/Maglev-Vortex)
