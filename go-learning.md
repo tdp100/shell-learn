@@ -69,3 +69,4 @@
 
 ## 11. others
 1. [Linux Signal及Golang中的信号处理](http://colobu.com/2015/10/09/Linux-Signals/)
+2. [GopherChina sliders](https://github.com/gopherchina)
