@@ -66,3 +66,6 @@
 1. [Golang concurrency - data races](http://wysocki.in/golang-concurrency-data-races/)
 2. [C. A. R. Hoare Communicating Sequential Processes](http://usingcsp.com/cspbook.pdf)
 3. [Systems Performance: Enterprise and the Cloud](http://www.brendangregg.com/books.html)
+
+## 11. others
+1. [Linux Signal及Golang中的信号处理](http://colobu.com/2015/10/09/Linux-Signals/)
