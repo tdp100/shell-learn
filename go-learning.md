@@ -71,3 +71,6 @@
 1. [Linux Signal及Golang中的信号处理](http://colobu.com/2015/10/09/Linux-Signals/)
 2. [GopherChina sliders](https://github.com/gopherchina)
 3. [雨痕-学习笔记](https://github.com/qyuhen/book)
+4. [state of go 2017](https://talks.golang.org/2017/state-of-go.slide)
+5. [Mutex profile](https://rakyll.org/mutexprofile/)
+6. [谢孟军 stae of go 1.8](http://blog.qiniu.com/archives/8203)
