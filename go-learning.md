@@ -74,3 +74,4 @@
 4. [state of go 2017](https://talks.golang.org/2017/state-of-go.slide)
 5. [Mutex profile](https://rakyll.org/mutexprofile/)
 6. [谢孟军 stae of go 1.8](http://blog.qiniu.com/archives/8203)
+7. [Go London User Group](https://www.meetup.com/Go-London-User-Group/events/236962716/)
