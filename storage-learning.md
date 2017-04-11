@@ -40,6 +40,7 @@
 11. [SOSP Paper – Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency](https://blogs.msdn.microsoft.com/windowsazurestorage/2011/11/20/sosp-paper-windows-azure-storage-a-highly-available-cloud-storage-service-with-strong-consistency/)
 12. [paxos-made-simple](https://www.microsoft.com/en-us/research/publication/paxos-made-simple/)
 13. [algorithms](https://www.microsoft.com/en-us/research/research-area/algorithms/)
+14. [一致性hash算法](http://blog.csdn.net/sparkliang/article/details/5279393)
 
 ## 其它
 
