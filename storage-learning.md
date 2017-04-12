@@ -41,6 +41,7 @@
 12. [paxos-made-simple](https://www.microsoft.com/en-us/research/publication/paxos-made-simple/)
 13. [algorithms](https://www.microsoft.com/en-us/research/research-area/algorithms/)
 14. [一致性hash算法](http://blog.csdn.net/sparkliang/article/details/5279393)
+15. [Jump consistent hash算法](https://arxiv.org/ftp/arxiv/papers/1406/1406.2294.pdf)
 
 ## 其它
 
