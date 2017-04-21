@@ -76,3 +76,4 @@
 6. [谢孟军 stae of go 1.8](http://blog.qiniu.com/archives/8203)
 7. [Go London User Group](https://www.meetup.com/Go-London-User-Group/events/236962716/)
 8. [Dave Cheney blogs](https://dave.cheney.net/about)
+9. [Go programming language secure coding practices guide](https://github.com/Checkmarx/Go-SCP)
