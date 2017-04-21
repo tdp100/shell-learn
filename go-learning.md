@@ -77,3 +77,5 @@
 7. [Go London User Group](https://www.meetup.com/Go-London-User-Group/events/236962716/)
 8. [Dave Cheney blogs](https://dave.cheney.net/about)
 9. [Go programming language secure coding practices guide](https://github.com/Checkmarx/Go-SCP)
+10. [Go 1.8 Plugins](https://speakerdeck.com/ianlewis/getting-plugged-in-with-go-1-dot-8-plugins-at-gophercon-india)
+11. [gopherconindia-slides 2017](http://budhram.in/writing/2017/02/27/gopherconindia-slides/)
