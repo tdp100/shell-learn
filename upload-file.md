@@ -4,7 +4,7 @@
 
 实现方式：
 1. HTTP Chunked 上传, 即使用http stream上传方式，它需要设置Transfer-Encoding头信息。
-2. HTTP Multipart 上传
+2. HTTP Multipart上传, 即form表单的enctype=multipart/form-data, 请参考[rfc1867 Form-based File Upload in HTML](https://tools.ietf.org/html/rfc1867)
 
 ### 2. chunk的格式
 ```json
@@ -31,3 +31,5 @@ step2: 服务器确认允许之后，浏览器才发起实际的 HTTP 请求。�
 ### 参考
 1. [Advanced Uploading Techniques — Part 1](http://creativejs.com/tutorials/advanced-uploading-techniques-part-1/index.html)
 2. [HTTP Streaming](https://gist.github.com/CMCDragonkai/6bfade6431e9ffb7fe88)
+3. [四种常见的 POST 提交数据方式](https://imququ.com/post/four-ways-to-post-data-in-http.html)
+4. []
