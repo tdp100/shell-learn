@@ -15,6 +15,14 @@ chunk_content\r\n
 0\r\n 
 \r\n
 ```
+### W3C File API
+1. File API(File API)
+
++ A FileList interface, which represents an array of individually selected files from the underlying system. The user interface for selection can be invoked via <input type="file">, i.e. when the input element is in the File Upload state [HTML] .
++ A Blob interface, which represents immutable raw binary data, and allows access to ranges of bytes within the Blob object as a separate Blob.
++ A File interface, which includes readonly informational attributes about a file such as its name and the date of the last modification (on disk) of the file.
++ A FileReader interface, which provides methods to read a File or a Blob, and an event model to obtain the results of these reads.
++ A URL scheme for use with binary data such as files, so that they can be referenced within web applications.
 
 ### 3. HTTP访问控制（CORS）
 [HTTP访问控制（CORS）](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS)
