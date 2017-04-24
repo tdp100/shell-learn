@@ -24,6 +24,8 @@ chunk_content\r\n
 + A FileReader interface, which provides methods to read a File or a Blob, and an event model to obtain the results of these reads.
 + A URL scheme for use with binary data such as files, so that they can be referenced within web applications.
 
+2. [通过 File API 使用 JavaScript 读取文件](https://www.html5rocks.com/zh/tutorials/file/dndfiles/)
+
 ### 3. HTTP访问控制（CORS）
 [HTTP访问控制（CORS）](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS)
 
