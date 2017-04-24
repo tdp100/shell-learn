@@ -32,4 +32,6 @@ step2: 服务器确认允许之后，浏览器才发起实际的 HTTP 请求。�
 1. [Advanced Uploading Techniques — Part 1](http://creativejs.com/tutorials/advanced-uploading-techniques-part-1/index.html)
 2. [HTTP Streaming](https://gist.github.com/CMCDragonkai/6bfade6431e9ffb7fe88)
 3. [四种常见的 POST 提交数据方式](https://imququ.com/post/four-ways-to-post-data-in-http.html)
-4. []
+4. [分块传输编码 Chunked transfer encoding](https://zh.wikipedia.org/wiki/%E5%88%86%E5%9D%97%E4%BC%A0%E8%BE%93%E7%BC%96%E7%A0%81)
+5. [Reading files in JavaScript using the File APIs](https://www.html5rocks.com/zh/tutorials/file/dndfiles/)
+
