@@ -42,6 +42,7 @@
 13. [algorithms](https://www.microsoft.com/en-us/research/research-area/algorithms/)
 14. [一致性hash算法](http://blog.csdn.net/sparkliang/article/details/5279393)
 15. [Jump consistent hash算法](https://arxiv.org/ftp/arxiv/papers/1406/1406.2294.pdf)
+16. [Google research paper: Consistent Hashing with Bounded Loads](http://chinagdg.org/2017/04/consistent-hashing-with-bounded-loads/)
 
 ## 其它
 
