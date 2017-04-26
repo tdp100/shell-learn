@@ -7,5 +7,11 @@
 #### 2. AngularJS: How to Use Filter in Controller
 请参考 [AngularJS: How to Use Filter in Controller](http://budiirawan.com/angular-js-use-filter-controller/)
 
+#### 3. AngularJS injectors internals
+讲解了angularjs injector的能力, 参考[AngularJS injectors internals](http://agiliq.com/blog/2017/04/angularjs-injectors-internals/)
+
+#### 4. IE bug.将httpStatus=204响应转化为了httpStatus=1223
+[IE0013: IE XMLHTTP implementation turns 204 response code into bogus 1223 status code](http://www.enhanceie.com/ie/bugs.asp)
+
 ### 参考
 1. [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects)
