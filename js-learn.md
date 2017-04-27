@@ -15,3 +15,4 @@
 
 ### 参考
 1. [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects)
+2. [Microsoft JavaScript Language Reference](https://docs.microsoft.com/en-us/scripting/javascript/javascript-language-reference)
