@@ -1,6 +1,6 @@
 #### ansible 最佳实践
 
-1. 使用vault-file来保存密码
+##### 1. 使用vault-file来保存密码
 
 定义vault_file，里面放置敏感变量，然后使用`ansible-vault encrypt vault_file`，将key保存到./key.txt文件中
 
