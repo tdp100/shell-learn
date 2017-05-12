@@ -1,10 +1,14 @@
-1. `cat /etc/passwd`   看所有系统用户信息
+### Linux 用户密码
+
+1. `cat /etc/passwd`   看所有系统用户信息
+
 2. `cat /etc/shadow`   查看用户的密码
+
 
 `/etc/shadow`中的密码可以进行加密散列保存，比如：
 `aychedee:$6$vb1tLY1qiY$M.1ZCqKtJBxBtZm1gRi8Bbkn39KU0YJW1cuMFzTRANcNKFKR4RmAQVk4rqQQCkaJT6wXqjUkFcA/qNxLyqW.U/:15405:0:99999:7:::`
 
-其中`$6$vb1tLY1qiY$`就表示加密的算法和盐值. 
+其中`$6$vb1tLY1qiY$`就表示加密的算法(`$6$`)和盐值(`vb1tLY1qiY`). 
 
 Available algorithms:
 
