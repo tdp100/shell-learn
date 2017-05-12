@@ -21,5 +21,18 @@ Available algorithms:
 | $5$  | sha256 |
 | $6$  | sha512 |
 
+### 密码加密的工具
+
++ python
+
+```python
+python -c 'import crypt; print crypt.crypt("PASSWORD", "$6$vb1tLY1qiY$")'
+```
++ mkpasswd
+
+```sh
+mkpasswd --method=sha512 --salt=vb1tLY1qiY PASSWORD
+```
+
 
 https://www.aychedee.com/2012/03/14/etc_shadow-password-hash-formats/
