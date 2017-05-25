@@ -13,6 +13,13 @@
 #### 4. IE bug.将httpStatus=204响应转化为了httpStatus=1223
 [IE0013: IE XMLHTTP implementation turns 204 response code into bogus 1223 status code](http://www.enhanceie.com/ie/bugs.asp)
 
+#### 5. 如果设计页面的权限显示
+1. 查询所有的权限列表
+2. 定义权限 service, UI组件显示，router访问
+3. 定义HTTP Interruptor
+
+[How to do Authorization and Role based permissions in AngularJs](http://nadeemkhedr.com/how-to-do-authorization-and-role-based-permissions-in-angularjs/)
+
 ### 参考
 1. [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects)
 2. [Microsoft JavaScript Language Reference](https://docs.microsoft.com/en-us/scripting/javascript/javascript-language-reference)
