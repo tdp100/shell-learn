@@ -18,7 +18,10 @@
 2. 定义权限 service, UI组件显示，router访问
 3. 定义HTTP Interruptor
 
-[How to do Authorization and Role based permissions in AngularJs](http://nadeemkhedr.com/how-to-do-authorization-and-role-based-permissions-in-angularjs/)
+   [How to do Authorization and Role based permissions in AngularJs](http://nadeemkhedr.com/how-to-do-authorization-and-role-based-permissions-in-angularjs/)
+
+#### 6. AngularJS: Factory vs Service vs Provider
+[AngularJS: Factory vs Service vs Provider](https://tylermcginnis.com/angularjs-factory-vs-service-vs-provider/)
 
 ### 参考
 1. [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects)
