@@ -23,6 +23,20 @@
 #### 6. AngularJS: Factory vs Service vs Provider
 [AngularJS: Factory vs Service vs Provider](https://tylermcginnis.com/angularjs-factory-vs-service-vs-provider/)
 
+#### 7. [Angular-Module-Loading](https://www.ng-book.com/p/Angular-Module-Loading/)
+1. run constant() method. 
+   We always place these at the beginning of all configuration blocks.
+
+2. configuration blocks.
+   executes blocks of configuration during the provider registration and configuration phases in the bootstrapping of the module.
+   
+   it’s also important to note that Angular runs these functions in the order in which they are written and registered. That is to say that we cannot inject a provider that has not yet been defined.
+
+3. Run Blocks
+   run blocks are executed after the injector is created and are the first methods that are executed in any Angular app.
+   
+   Run blocks are the closest thing in Angular to the main method.
+
 ### 参考
 1. [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects)
 2. [Microsoft JavaScript Language Reference](https://docs.microsoft.com/en-us/scripting/javascript/javascript-language-reference)
