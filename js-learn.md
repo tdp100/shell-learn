@@ -40,6 +40,14 @@
    
    Run blocks are the closest thing in Angular to the main method.
 
+#### 8. angular expression
+如何解析表达表达式，借助angular的$parse服务，比如:
+
+```js
+getter = $parse(expression);
+var result = getter(context);
+```
+
 ### 参考
 1. [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects)
 2. [Microsoft JavaScript Language Reference](https://docs.microsoft.com/en-us/scripting/javascript/javascript-language-reference)
