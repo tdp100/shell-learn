@@ -47,6 +47,13 @@
 getter = $parse(expression);
 var result = getter(context);
 ```
+
+#### 9. angular directive
++ [see $compile] https://docs.angularjs.org/api/ng/service/$compile
+  
+  注意： scope的绑定中`<attr`在1.5+才生效
++ [Creating Custom AngularJS Directives Part I – The Fundamentals](https://weblogs.asp.net/dwahlin/creating-custom-angularjs-directives-part-i-the-fundamentals)
+
 #### [The JavaScript Event Loop: Explained](http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
 
 ### 参考
