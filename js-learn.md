@@ -54,6 +54,10 @@ var result = getter(context);
   注意： scope的绑定中`<attr`在1.5+才生效
 + [Creating Custom AngularJS Directives Part I – The Fundamentals](https://weblogs.asp.net/dwahlin/creating-custom-angularjs-directives-part-i-the-fundamentals)
 
++ [Understanding Optional AngularJS Bindings](http://www.codelord.net/2017/05/28/understanding-optional-angularjs-bindings/)
+
+  注意：你必须了解directive的bindings与scope的关系，即JS运行的上下文是哪个。对于`&`其运行的context是父scope.
+
 #### [The JavaScript Event Loop: Explained](http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
 
 ### 参考
