@@ -66,6 +66,8 @@ var result = getter(context);
 2. [JavaScript Promise：简介](https://developers.google.com/web/fundamentals/getting-started/primers/promises#toc-promises-queues)
 3. [angular $q](https://docs.angularjs.org/api/ng/service/$q)
 
+这里需要注意的是promise.then(success, err). then返回一个新的promise,该promise由success和err的value进行resolved和rejected. 如果success或者err返回的是一个promise，那么将由该promise作为后续的新的promise.
+
 ### 参考
 1. [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects)
 2. [Microsoft JavaScript Language Reference](https://docs.microsoft.com/en-us/scripting/javascript/javascript-language-reference)
