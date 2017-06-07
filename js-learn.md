@@ -58,7 +58,13 @@ var result = getter(context);
 
   注意：你必须了解directive的bindings与scope的关系，即JS运行的上下文是哪个。对于`&`其运行的context是父scope.
 
-#### [The JavaScript Event Loop: Explained](http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
+#### 10. [The JavaScript Event Loop: Explained](http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)
+
+#### 11. 理解promise
+
+1. [We have a problem with promises](https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html)
+2. [JavaScript Promise：简介](https://developers.google.com/web/fundamentals/getting-started/primers/promises#toc-promises-queues)
+3. [angular $q](https://docs.angularjs.org/api/ng/service/$q)
 
 ### 参考
 1. [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects)
