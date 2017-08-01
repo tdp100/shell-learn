@@ -63,5 +63,11 @@ aws s3api get-object --bucket [bucket-name] --key demo.html --part-number 1 demo
 aws s3api get-object --no-verify-ssl --debug --bucket [bucket-name] --key demo.html --part-number 1 demo
 
 ### 查询多版本
+aws s3api list-object-versions --no-verify-ssl --bucket tdpdocument --prefix dfgsdgf/demo.txt
+
+### 以json格式输出
+aws s3api list-object-versions --no-verify-ssl --debug --output json --bucket tdpdocument --prefix dfgsdgf/demo.txt
+
+### 以xml格式输出， 开启debug，从日志中选择xml结果
 aws s3api list-object-versions --no-verify-ssl --debug --bucket tdpdocument --prefix dfgsdgf/demo.txt
 ```
