@@ -6,4 +6,12 @@
 
 #### s3curl 命令行使用方式：
 
+```sh
 ./s3curl.pl --id=[aws-access-key-id] --key=[aws-secret-access-key] -- http://s3.amazonaws.com/[bucket-name]/[key-name]
+```
+
+#### xml格式化输出
+
+```sh
+./s3curl.pl --id=[aws-access-key-id] --key=[aws-secret-access-key] -- http://s3.amazonaws.com/[bucket-name]/[key-name] -v | xmllint --format
+```
