@@ -7,3 +7,4 @@
 
 + [FFmpeg](https://ffmpeg.org/legal.html)
 + [FFMPEG实现将视频自动转码成H264标准Mp4文件](https://yq.aliyun.com/ziliao/149794)
++ [linux ffmpeg编译配置安装详解](https://yq.aliyun.com/ziliao/80761?spm=5176.8246799.blogcont.25.dVDSi2)
