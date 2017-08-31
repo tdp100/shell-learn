@@ -23,3 +23,5 @@
     ----https://www.goinggo.net/2013/08/using-c-dynamic-libraries-in-go-programs.html
 9. golang flag
     ----http://blog.ralch.com/tutorial/golang-subcommands/
+
+10. 配置[file watcher](https://stackoverflow.com/questions/33774950/execute-gofmt-on-file-save-in-intellij)
