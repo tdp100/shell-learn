@@ -25,3 +25,8 @@
     ----http://blog.ralch.com/tutorial/golang-subcommands/
 
 10. 配置[file watcher](https://stackoverflow.com/questions/33774950/execute-gofmt-on-file-save-in-intellij)
+
+## 社区
+
+1. [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts)
+2. [github gophercon](https://github.com/gophercon/2017-talks)
