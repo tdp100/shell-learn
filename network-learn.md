@@ -9,3 +9,8 @@ ToR方式的出现，为机房架构设计带来了新的变化：该方式将�
 ### 2. CLOS组网架构
 
 参考：http://blog.sina.com.cn/s/blog_61bd83dc0100z4mt.html
+
+### 3. 超大规模数据中心网络
+
+参考：http://www.sdnlab.com/16392.html
+
