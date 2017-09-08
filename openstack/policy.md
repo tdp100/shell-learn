@@ -55,9 +55,15 @@ Rules can be:
 
 Special checks are:
 
-+ <role>:<role name>, a test whether the API credentials contain this role.
-+ <rule>:<rule name>, the definition of an alias.
-+ http:<target URL>, which delegates the check to a remote server. The API is authorized when the server returns True.
++ `<role>:<role name>`, a test whether the API credentials contain this role.
+   
+   `"identity:create_user" : "role:admin"`
+   
++ `<rule>:<rule name>`, the definition of an alias.
+   
+   `"stacks:create": "rule:deny_stack_user"`
+    
++ `http:<target URL>`, which delegates the check to a remote server. The API is authorized when the server returns True.
 
 ### Two values are compared
 
