@@ -40,3 +40,55 @@ openstack 每一个服务都有role-based access policies， 这些policies定�
 "deny_stack_user": "not role:heat_stack_user"
 ```
 这里先定义了一个`rule:deny_stack_user`别名，然后给这个action增加了rule规则`"not role:heat_stack_user"`
+
+### rule的规则
+
+Rules can be:
+
++ always true. The action is always permitted. This can be written as "" (empty string), [], or "@".
++ always false. The action is never permitted. Written as "!".
++ a special check
++ a comparison of two values
++ boolean expressions based on simpler rules
+
+### a special check
+
+Special checks are:
+
++ <role>:<role name>, a test whether the API credentials contain this role.
++ <rule>:<rule name>, the definition of an alias.
++ http:<target URL>, which delegates the check to a remote server. The API is authorized when the server returns True.
+
+### Two values are compared
+
+```json
+"value1 : value2"
+```
+
+Possible values are:
+
++ constants: Strings, numbers, true, false
++ API attributes 
+
+  API attributes can be `project_id`, `user_id` or `domain_id`.
+  
++ target object attributes
+
+  Target object attributes are fields from the object description in the database. For example in the case of the "compute:start" API, the object is the instance to be started. The policy for starting instances could use the %(project_id)s attribute, that is the project that owns the instance. The trailing s indicates this is a string.
+  
++ the flag is_admin
+
+  is_admin indicates that administrative privileges are granted via the admin token mechanism (the --os-token option of the keystone command). The admin token allows initialisation of the Identity database before the admin role exists.
+  
+
+### alias
+
+The alias construct exists for convenience. An alias is short name for a complex or hard to understand rule. It is defined in the same way as a policy:
+
+```json
+alias name : alias definition
+```
+
+Once an alias is defined, use the rule keyword to use it in a policy rule.
+
+
