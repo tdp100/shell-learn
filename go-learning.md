@@ -98,3 +98,4 @@
 ## 12. books
 
 [go programming blueprint](https://books.google.com/books?id=15XcDgAAQBAJ&lpg=PA163&ots=iVzVyqPJPh&dq=should%20not%20use%20basic%20type%20string%20as%20key%20in%20context.WithValue&pg=PP3#v=twopage&q&f=true)
+[go books list](https://github.com/miguellgt/books/tree/master/go)
