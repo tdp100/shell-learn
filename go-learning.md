@@ -66,6 +66,9 @@
 1. sync
 2. reflect
 
+**引用**
++ [GO REFLECTION BASICS EXPLAINED IN COLOR](http://www.hawthorne-press.com/GO_Reflection_Basics_Explained_In_Color.pdf)
+
 ## 8. go tool
 
 1. pprof
