@@ -106,3 +106,4 @@
 ## 13. 性能调优
 
 1. [使用pprof优化golang性能](http://cjting.me/golang/use-pprof-to-optimize-go/)
+2. [The complete guide to Go net/http timeouts](https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/)
