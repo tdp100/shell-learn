@@ -15,3 +15,5 @@
 ###  3. [Maglev A Fast and Reliable Software Network Load Balancer]()
 
 ###  4. [alibaba LVS](https://github.com/alibaba/LVS)
+
+###  5. [服务注册以及consumer侧做软负载--alibaba dubbo](https://dubbo.gitbooks.io)
