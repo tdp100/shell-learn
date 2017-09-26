@@ -73,7 +73,23 @@ export PATH=$PATH:$JAVA_HOME/bin
 
 . /etc/profile
 ```
-3. 启动jmeter
+
+3. 检查lib
+
+解决如下问题：
+
+```conf
+java.lang.UnsatisfiedLinkError: /root/jdk/jdk1.8.0_144/jre/lib/amd64/libawt_xawt.so: libXrender.so.1: cannot open shared object file: No such file or directory
+
+```
+
+```sh
+rpm -ivh libXrender-0.9.8-2.1.x86_64.rp
+cd /usr/lib64
+ll | grep libXrender
+```
+
+4. 启动jmeter
 
 ```sh
 cd jmeter-home/bin
