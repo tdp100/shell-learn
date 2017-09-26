@@ -54,3 +54,26 @@ unzip apache-jmeter-3.3.zip
    remote_hosts=xx.xx.xx.xx,xx.xx.xx.xx
 6. Start jmeter.
 7. Open the test plan you want to use
+
+#### 2.1 slave节点配置
+
+1. 安装JDK
+2. 配置环境变量
+
+```sh
+vim /etc/profile
+
+export DISPLAY=:0.0
+export JAVA_HOME=~/JDK-9
+export PATH=$PATH:$JAVA_HOME/bin
+
+. /etc/profile
+```
+3. 启动jmeter
+
+```sh
+cd jmeter-home/bin
+
+./jmeter &
+```
+
