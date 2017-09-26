@@ -13,17 +13,17 @@ unzip apache-jmeter-3.3.zip
 
 #### 1.2 Master节点安装监控插件
 
-1. 下载最新jmeter插件[jmeter-plugins-standard downloads page](http://jmeter-plugins.org/downloads/all/#Latest-Stable-Release)
+1. 下载最新jmeter插件[JMeter Plugins](http://jmeter-plugins.org/downloads/all/#Latest-Stable-Release)
 
-2. 根据需求选择合适的插件，我们使用的`jmeter-plugins-standard`
+2. 根据需求选择合适的插件，我们使用的[PerfMon](https://jmeter-plugins.org/wiki/PerfMon/)
 
-3. 解压缩`JMeterPlugins-Standard-1.3.0.zip`,复制文件`JMeterPlugins-Standard-1.2.1/lib/ext/JMeterPlugins-Standard.jar`到`JMeter目录\apache-jmeter-2.13\lib\ext`目录下。
+3. 解压缩`jpgc-perfmon-2.1.zip`,复制文件`JMeterPlugins-Standard-1.2.1/lib/**`到`JMeter目录\apache-jmeter-2.13\lib\`目录下。
 
 4. 重启JMeter
 
 #### 1.3 Slave节点安装监控agent
 
- 1. 下载最新[ServerAgent-2.2.1.zip downloads page](http://jmeter-plugins.org/downloads/all/ServerAgent-2.2.1.zip)
+ 1. 下载最新PerfMon agent[ServerAgent-2.2.3.zip](https://github.com/undera/perfmon-agent/blob/master/README.md)
 
  2.  拷贝文件到需要监控的机器到指定目录
 
