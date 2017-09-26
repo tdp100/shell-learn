@@ -91,9 +91,30 @@ ll | grep libXrender
 
 4. 启动jmeter
 
+注意：多网卡场景中，一定要指定`-Djava.rmi.server.hostname`参数，确保与Master在同一网段
+
 ```sh
 cd jmeter-home/bin
 
 ./jmeter-server -Djava.rmi.server.hostname=xx.xx.xx.xx  &
 ```
+
+#### 2.2 master节点配置
+
+1. 修改jmeter-home/bin/jmeter.properties配置文件，将slave节点的IP添加到变量`remote_hosts`中
+
+```config
+
+# Remote Hosts - comma delimited
+remote_hosts=slave1-ip,slave2-ip
+```
+
+2. 启动
+
+注意：多网卡场景中，一定要指定`-Djava.rmi.server.hostname`参数，确保与Slaver在同一网段
+
+```sh
+jmeter -Djava.rmi.server.hostname=xx.xx.xx.xx
+```
+
 
