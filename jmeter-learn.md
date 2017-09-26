@@ -40,13 +40,17 @@ unzip apache-jmeter-3.3.zip
  
  ### 2 jmeter集群模式
 
+参考：[Apache JMeter Distributed Testing Step-by-step](http://jmeter.apache.org/usermanual/jmeter_distributed_testing_step_by_step.html)
+
+![image](http://jmeter.apache.org/images/screenshots/distributed-names.svg)
+
 + Master – the system running Jmeter GUI, which controls the test
-+ Slave – the system running jmeter-server, which takes commands from the GUI and send requests to the target system(s)
++ Slave – the system running **jmeter-server**, which takes commands from the GUI and send requests to the target system(s)
 + Target – the webserver we plan to stress test
 
 执行步骤
 
-1. On the slave systems, go to jmeter/bin directory and execute jmeter-server.bat (jmeter-server on unix).
+1. On the slave systems, go to jmeter/bin directory and execute **jmeter-server.bat (jmeter-server on unix)**.
 2. On master system acting as the console, open windows explorer and go to jmeter/bin directory
 3. open jmeter.properties in a text editor 
 4. edit the line “remote_hosts=127.0.0.1”
@@ -74,6 +78,6 @@ export PATH=$PATH:$JAVA_HOME/bin
 ```sh
 cd jmeter-home/bin
 
-./jmeter &
+./jmeter-server -Djava.rmi.server.hostname=xx.xx.xx.xx  &
 ```
 
