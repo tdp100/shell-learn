@@ -107,3 +107,28 @@
 
 1. [使用pprof优化golang性能](http://cjting.me/golang/use-pprof-to-optimize-go/)
 2. [The complete guide to Go net/http timeouts](https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/)
+
+
+
+# CGO
+
+## 1. [pkg-config](https://www.freedesktop.org/wiki/Software/pkg-config/)
+
+一个记录compiler和linker所需要的参数的工具，它会生成`.pc`描述文件
+
+## 2. cgo
+
+方式1. 定义编译和链接所需要的cgo参数
+
++ #cgo CFLAGS
++ #cgo LDFLAGS
+
+方式2. 使用pkg-config方式提供编译和链接所需要的cgo参数
+
++ #cgo !no_pkgconfig pkg-config: MagickWand MagickCore
+
+
+## 参考：
+
+1. [Using CGO with Pkg-Config And Custom Dynamic Library Locations](https://www.goinggo.net/2013/08/using-cgo-with-pkg-config-and-custom.html)
+2. [cgo项目如何编译便携版二进制文件](http://www.jianshu.com/p/15e5b0a50244)
