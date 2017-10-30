@@ -101,7 +101,11 @@ netstat -ta
 配置firewall和net等等, 有专门的文章介绍
 
 8. 虚拟化技术
+
 1 分布式虚拟的交换机：http://www.huawei.com/ilink/cnenterprise/download/HW_401035
+
 2 VLAN技术 802.1Q
+
+3 TCP/IP详解：https://github.com/mymmsc/books/tree/master/network
 
 
