@@ -18,3 +18,7 @@ http://www.jianshu.com/p/1af904e9a6e4
 *    图片编辑器一般用MB衡量尺寸大小。(没压缩之前的原始尺寸除以1024x1024)
 *    操作系统里显示的尺寸一般是压缩后的大小，会小于原始尺寸。
 总体来说一张图片占多少内存，在于图片的尺寸大小和色彩模式。 (像素*色彩模式所占bit数)
+
+## 阿里图片转码
+
+阿里OSS中的图片转码采用的是GraphicsMagick,详见：[阿里云团队畅谈图片服务架构演进](http://blog.csdn.net/yechaodechuntian/article/details/38041901)
