@@ -28,3 +28,11 @@ http://www.jianshu.com/p/1af904e9a6e4
 GraphicsMagick 提供了包括裁、缩放、合成、打水印、图像转换、填充等非常丰富的接口API,其中的开发包SDK也非常丰富，包括了JAVA(im4java)、C、C++、Perl、PHP、Tcl、Ruby等的调用，支持超过88中图像格式，包括重要的DPX、GIF、JPEG、JPEG-2000、PNG、PDF、PNM和TIFF，GraphicsMagick可以再绝大多数的平台上使用，Linux、Mac、Windows都没有问题。但是独立开发这些图片处理服务，对服务器的IO要求相对要高一些，而且目前这些开源的图片处理编辑库，相对来说还不是很稳定，笔者在使用GraphicsMagick 的时候就遇到了tomcat 进程crash情况，需要手动重启tomcat服务。
 阿里云目前已经对外开放图片处理API,包括了大多数常用处理解决方案：缩略图、打水印、文字水印、样式、管道等。开发者可以非常方便的使用如上图片处理方案，希望越来越多的开发者能够基于OSS开放出更多优秀的产品。
 
+## 又拍云的图片处理
+
+增加缓存
+
+>>>群友：处理过的图片会存储磁盘吗？
+黄慧攀：处理过的图片，不存磁盘。 但上面有 2 层缓存。
+
+参考：http://www.10tiao.com/html/175/201603/404669856/1.html
