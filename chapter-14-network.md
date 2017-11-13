@@ -118,6 +118,16 @@ netstat -ta
 3. [Data Center Data Center Network Topologies--Washington University](https://www.cse.wustl.edu/~jain/cse570-13/ftp/m_03dct.pdf)
 4. [A Guided Tour through Data Center Networking](https://www.cs.cornell.edu/courses/cs5413/2014fa/lectures/07-datacenter-tour.pdf)
 5. [ACM: A Guided Tour through Data Center Networking](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/40404.pdf)
+6. [Data Center Network Architecture Yantao Sun, Jing Cheng, Konggui Shi, and Qiang Liu](www.cnki.net)
+>>>the typical oversubscription ratio be⁃
+tween neighboring layers is 1:5 or more. In the top layer, this
+ratio may reach 1:80 to 1:240. Even if the fastest, most ad⁃
+vanced switches and routers are used, only 50% of the aggrega⁃
+tion bandwidth of edge networks can be supported in the top
+layer [3]. The top layer is therefore becoming the bottleneck of
+the entire network, especially in today’s cloud computing envi⁃
+ronment where the requirement for intra-network traffic is in⁃
+creasing rapidly.
 
 ## 4.文献索引
 1. [citeseerx](http://citeseerx.ist.psu.edu/index)
