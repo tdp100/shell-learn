@@ -119,3 +119,6 @@ netstat -ta
 4. [A Guided Tour through Data Center Networking](https://www.cs.cornell.edu/courses/cs5413/2014fa/lectures/07-datacenter-tour.pdf)
 5. [ACM: A Guided Tour through Data Center Networking](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/40404.pdf)
 
+## 4.文献索引
+1. [citeseerx](http://citeseerx.ist.psu.edu/index)
+
