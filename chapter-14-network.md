@@ -113,8 +113,11 @@ netstat -ta
 1. [router alley](http://www.routeralley.com/guides.html)
 2. [超大规模数据中心网络](http://www.sdnlab.com/16392.html)
    + CLOS组网方式
+   
    + Fat tree组网方式
+   
    + 收敛比 over subscription
+   
 3. [Data Center Data Center Network Topologies--Washington University](https://www.cse.wustl.edu/~jain/cse570-13/ftp/m_03dct.pdf)
 4. [A Guided Tour through Data Center Networking](https://www.cs.cornell.edu/courses/cs5413/2014fa/lectures/07-datacenter-tour.pdf)
 5. [ACM: A Guided Tour through Data Center Networking](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/40404.pdf)
@@ -128,6 +131,10 @@ layer [3]. The top layer is therefore becoming the bottleneck of
 the entire network, especially in today’s cloud computing envi⁃
 ronment where the requirement for intra-network traffic is in⁃
 creasing rapidly.
+
+## 4.术语：
+
+1. DWDM，用于数据中心AZ间互连使用技术
 
 ## 4.文献索引
 1. [citeseerx](http://citeseerx.ist.psu.edu/index)
