@@ -116,5 +116,6 @@ netstat -ta
    + Fat tree组网方式
    + 收敛比 over subscription
 3. [Data Center Data Center Network Topologies--Washington University](https://www.cse.wustl.edu/~jain/cse570-13/ftp/m_03dct.pdf)
-4. [ACM: A Guided Tour through Data Center Networking](https://www.cs.cornell.edu/courses/cs5413/2014fa/lectures/07-datacenter-tour.pdf)
+4. [A Guided Tour through Data Center Networking](https://www.cs.cornell.edu/courses/cs5413/2014fa/lectures/07-datacenter-tour.pdf)
+5. [ACM: A Guided Tour through Data Center Networking](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/40404.pdf)
 
