@@ -111,4 +111,7 @@ netstat -ta
 9. 博客
 
 1. [router alley](http://www.routeralley.com/guides.html)
+2. [超大规模数据中心网络](http://www.sdnlab.com/16392.html)
+   + CLOS组网方式
+   
 
