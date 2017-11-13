@@ -100,7 +100,7 @@ netstat -ta
 
 配置firewall和net等等, 有专门的文章介绍
 
-8. 虚拟化技术
+## 2. 虚拟化技术
 
 1 分布式虚拟的交换机：http://www.huawei.com/ilink/cnenterprise/download/HW_401035
 
@@ -108,10 +108,11 @@ netstat -ta
 
 3 TCP/IP详解：https://github.com/mymmsc/books/tree/master/network
 
-9. 博客
+## 3. 博客
 
 1. [router alley](http://www.routeralley.com/guides.html)
 2. [超大规模数据中心网络](http://www.sdnlab.com/16392.html)
    + CLOS组网方式
+3. [Data Center Data Center Network Topologies--Washington University](https://www.cse.wustl.edu/~jain/cse570-13/ftp/m_03dct.pdf)
    
 
