@@ -137,6 +137,10 @@ creasing rapidly.
 1. DWDM，用于数据中心AZ间互连使用技术
 3. VRF(Virtual Routing and Forwarding): 核心路由器上的一个功能，[参考](https://www.plixer.com/blog/netflow/what-is-vrf-virtual-routing-and-forwarding/)
 
-## 4.文献索引
+## 5.文献索引
 1. [citeseerx](http://citeseerx.ist.psu.edu/index)
 2. [cnki 中国知网](www.cnki.net)
+
+## 6 模拟器
+
+1 华为的eNSP
