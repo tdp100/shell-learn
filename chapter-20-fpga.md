@@ -12,3 +12,7 @@
 1. [intel Altera FPGA 软件编程的在线指南](https://www.altera.com.cn/support/training/curricula.html)
 2. [Xilinx的SDx 开发环境](https://china.xilinx.com/products/design-tools/software-zone/sdaccel.html)
 3. [面向openCL的英特尔® FPGA SDK](https://www.altera.com.cn/products/design-software/embedded-software-developers/opencl/overview.html)
+
+## 4. 论坛
+
+1. [Altera论坛](http://www.alteraforum.com.cn/default.php)
