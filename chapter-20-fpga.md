@@ -10,3 +10,4 @@
 ## 3. FPGA软件编程
 
 1. [intel Altera FPGA 软件编程的在线指南](https://www.altera.com.cn/support/training/curricula.html)
+2. [Xilinx的SDx 开发环境](https://china.xilinx.com/products/design-tools/software-zone/sdaccel.html)
