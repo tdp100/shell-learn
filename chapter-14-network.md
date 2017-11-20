@@ -104,6 +104,14 @@ netstat -ta
 
 1 分布式虚拟的交换机：http://www.huawei.com/ilink/cnenterprise/download/HW_401035
 
+1.1 网络I/O虚拟化，SR-IOV技术: http://www.sdnlab.com/14403.html 
+>>>SR-IOV引入了两个新的功能类型：
+>>>
+>>>PFs（Physical Functions，物理功能）：物理网卡所支持的一项PCI功能，一个PF可以扩展出若干个VF。
+>>>VFs（Virtual Functions，虚拟功能）：支持SR-IOV的物理网卡虚拟出来的实例，以一个独立网卡的形式呈现，每个VF有独立的PCI配置区域，并可以与其它VF共享同一个物理资源（共用同一个物理网口）。 VM需要安装VF 设备驱动
+
+
+
 2 VLAN技术 802.1Q
 
 3 TCP/IP详解：https://github.com/mymmsc/books/tree/master/network
