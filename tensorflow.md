@@ -11,4 +11,6 @@ export PATH=:$PATH:$PYTHON_HOME:$PYTHON_HOME\Scripts
 
 ```sh
 pip3 install --upgrade tensorflow
-``
+```
+
+set proxy, see [this](https://stackoverflow.com/questions/9698557/how-to-use-pip-on-windows-behind-an-authenticating-proxy)
