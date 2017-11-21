@@ -43,6 +43,7 @@
 14. [一致性hash算法](http://blog.csdn.net/sparkliang/article/details/5279393)
 15. [Jump consistent hash算法](https://arxiv.org/ftp/arxiv/papers/1406/1406.2294.pdf)
 16. [Google research paper: Consistent Hashing with Bounded Loads](http://chinagdg.org/2017/04/consistent-hashing-with-bounded-loads/)
+17. [IBM developerwork,Apache Cassandra3.X 系列,无中心化是如何实现的](https://www.ibm.com/developerworks/cn/opensource/os-cn-apache-cassandra3x3/index.html)
 
 ## 其它
 
