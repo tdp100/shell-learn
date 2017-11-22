@@ -6,3 +6,5 @@
 
 1. 基于超时机制的Paxos
 
+### 4. [康奈尔大学计算机系 Paxos Made Moderately Complex](http://paxos.systems/index.html)
+
