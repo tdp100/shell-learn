@@ -23,6 +23,8 @@
 ### 7. [持续可用与CAP理论 – 一个系统开发者的观点](https://yq.aliyun.com/articles/26616?spm=5176.100239.blogcont54371.22.CNYIu3)
 
 1. 共享存储
-3. Paxos解决方案
+2. Paxos解决方案
+
+### 8. [分布式一致性算法：Raft 算法（论文翻译）](https://yq.aliyun.com/articles/71302?spm=5176.100239.blogcont54371.21.aMG8QJ)
 
 
