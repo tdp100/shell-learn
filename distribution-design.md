@@ -16,6 +16,6 @@
 4. proposer: 提案者，负责向acceptor提交proposal
 4.1 prososer leader:提案Leader，充当其它proposer的代理人，向acceptor提交proposal
 5. Acceptor: 提案接收者
-6. learn：学习
+6. learner: 只能"学习"被批准的提案
 
 
