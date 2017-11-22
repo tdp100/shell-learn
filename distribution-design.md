@@ -8,3 +8,14 @@
 
 ### 4. [康奈尔大学计算机系 Paxos Made Moderately Complex](http://paxos.systems/index.html)
 
+### 5. [介绍的比较全面中国人最容易懂的paxos](http://blog.csdn.net/dellme99/article/details/14162159)
+
+1. promise：Acceptor对proposer承诺，如果没有更大编号的proposal会accept它提交的proposal
+2. accept：Acceptor没有发现有比之前的proposal更大编号的proposal，就批准了该proposal
+3. chosen：当Acceptor的多数派都accept一个proposal时，该proposal就被最终选择，也称为决议
+4. proposer: 提案者，负责向acceptor提交proposal
+4.1 prososer leader:提案Leader，充当其它proposer的代理人，向acceptor提交proposal
+5. Acceptor: 提案接收者
+6. learn：学习
+
+
