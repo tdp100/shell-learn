@@ -27,4 +27,6 @@
 
 ### 8. [分布式一致性算法：Raft 算法（论文翻译）](https://yq.aliyun.com/articles/71302?spm=5176.100239.blogcont54371.21.aMG8QJ)
 
+1. [etcd-服务注册与发现](http://ralphbupt.github.io/2017/05/04/etcd-%E6%9C%8D%E5%8A%A1%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%8F%91%E7%8E%B0/)
+
 
