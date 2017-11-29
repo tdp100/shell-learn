@@ -32,3 +32,7 @@
 ### 9. [MIT 分布式课程](http://nil.csail.mit.edu/6.824/2016/schedule.html)
 
 1. [Distributed transactions,• Availability • Replicated State Machines](http://web.mit.edu/6.033/www/lec/s19.pdf)
+
+
+### 本地编程：
+[golang开发环境搭建-安装go 和 grpc](http://www.jianshu.com/p/e2435b834d68)
