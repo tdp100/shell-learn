@@ -30,3 +30,5 @@
 1. [etcd-服务注册与发现](http://ralphbupt.github.io/2017/05/04/etcd-%E6%9C%8D%E5%8A%A1%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%8F%91%E7%8E%B0/)
 
 ### 9. [MIT 分布式课程](http://nil.csail.mit.edu/6.824/2016/schedule.html)
+
+1. [Distributed transactions,• Availability • Replicated State Machines](http://web.mit.edu/6.033/www/lec/s19.pdf)
