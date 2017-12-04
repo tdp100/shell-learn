@@ -34,5 +34,13 @@
 1. [Distributed transactions,• Availability • Replicated State Machines](http://web.mit.edu/6.033/www/lec/s19.pdf)
 
 
+### etcd 
+
+1. [本地搭建etcd 集群](https://skyao.gitbooks.io/learning-etcd3/content/documentation/dev-guide/local_cluster.html)：
+
+```
+goreman -f Procfile start
+```
+
 ### 本地编程：
 [golang开发环境搭建-安装go 和 grpc](http://www.jianshu.com/p/e2435b834d68)
