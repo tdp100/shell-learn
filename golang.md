@@ -26,6 +26,8 @@
 
 10. 配置[file watcher](https://stackoverflow.com/questions/33774950/execute-gofmt-on-file-save-in-intellij)
 
+11. [Golang控制goroutine的启动与关闭](http://www.cnblogs.com/vimsk/p/4866586.html)
+
 ## 社区
 
 1. [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts)
