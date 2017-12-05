@@ -28,6 +28,10 @@
 
 11. [Golang控制goroutine的启动与关闭](http://www.cnblogs.com/vimsk/p/4866586.html)
 
+## golang 反射
+
+1 [在 GOLANG 中用名字调用函数](https://mikespook.com/2012/07/%E5%9C%A8-golang-%E4%B8%AD%E7%94%A8%E5%90%8D%E5%AD%97%E8%B0%83%E7%94%A8%E5%87%BD%E6%95%B0/)
+
 ## 社区
 
 1. [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts)
