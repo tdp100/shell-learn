@@ -61,3 +61,5 @@
 + [Werner Vogels(CTO - Amazon.com)](http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html)
 + [James Hamilton AWS明星工程师](http://mvdirona.com/jrh/Work/)
 + [存储系统的那些事-许式伟](http://www.infoq.com/cn/articles/storage-system-stuff)
++ [如何选择纠删码编码引擎](https://community.qingcloud.com/topic/862/%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E7%BA%A0%E5%88%A0%E7%A0%81%E7%BC%96%E7%A0%81%E5%BC%95%E6%93%8E)
+
