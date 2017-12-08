@@ -54,3 +54,14 @@ umount -l /dev/xvde1
 
 查看分区
 `vim /etc/fstab`
+
+查看分区
+```sh
+[root@localhost ~]# lsblk --output NAME,FSTYPE,TYPE,LOG-SEC,PHY-SEC,SIZE,MOUNTPOINT
+NAME             FSTYPE      TYPE LOG-SEC PHY-SEC  SIZE MOUNTPOINT
+sr0                          rom      512     512 1024M 
+xvda                         disk     512     512   40G 
+├─xvda1          ext3        part     512     512  512M /boot
+└─xvda2          LVM2_member part     512     512 39.5G 
+  └─euleros-root ext3        lvm      512     512 39.5G /
+```
