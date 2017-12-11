@@ -18,10 +18,6 @@
 ***During the signing process the Root CA digitally signs the intermediate certificate using its private key***. This provides authenticity that the intermediate certificate is trusted by the Root CA.
 Next the Sub CA (intermediate CA) signs the identity Certificate using its private key. This provides authenticity that the identity certificate is trusted by the Intermediate CA.
 
-
-
- 
-
 #### EXAMPLE
 
 Using a typical scenario of a user connecting to an SSL web-page, we will walk through the steps required to provide a ‘Chain of Trust’.
@@ -35,3 +31,11 @@ The client wants to view an SSL website. For this he will use a web browser. By 
 + Next the client confirms the authenticity of the identity certificate by decrypting the digital signature using the intermediates public key.
 + The client then clarifies that the URL that is being requested by matching the DN (Distinguished Name) within the Identity Certificate. If this does not match the browser displays a warning.
 + Traffic is then encrypted/decrypted by a) the 'client' using the public key b) the 'server' using the private key.
+
+#### 如何生成证书链
+
+http://ldapwiki.com/wiki/Certificate%20Chain
+
+```sh
+$ cat www.example.com.crt intermediate.crt > www.example.com.chained.crt
+```
