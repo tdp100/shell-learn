@@ -42,6 +42,7 @@ http://ldapwiki.com/wiki/Certificate%20Chain
 $ cat www.example.com.crt intermediate.crt > www.example.com.chained.crt
 ```
 
-## 6. SSL证书格式转换工具
+## 6. openssl工具
 
-参考：https://csr.chinassl.net/convert-ssl.html
+SSL证书格式转换工具：https://csr.chinassl.net/convert-ssl.html
+SSL证书格式转换工具 https://csr.chinassl.net/convert-ssl-commands.html
