@@ -33,6 +33,7 @@
 
 1. [Distributed transactions,• Availability • Replicated State Machines](http://web.mit.edu/6.033/www/lec/s19.pdf)
 
+### 10.[yan Barrett, Google App Engine datastore lead, gave this talk Transactions Across Datacenters (and Other Weekend Projects) at the Google I/O 2009 conference. ](http://highscalability.com/blog/2009/8/24/how-google-serves-data-from-multiple-datacenters.html)
 
 ### etcd 
 
