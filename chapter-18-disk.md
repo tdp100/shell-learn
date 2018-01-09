@@ -65,3 +65,15 @@ xvda                         disk     512     512   40G
 └─xvda2          LVM2_member part     512     512 39.5G 
   └─euleros-root ext3        lvm      512     512 39.5G /
 ```
+
+
+### NTFS挂载遇到的问题
+
+1. GDB分区，可以采用lsblk查看磁盘分区，可以使用`parted -l`查看设备的分区表和文件系统类型
+2. 对于一个磁盘没有任何分区时，直接使用`mount.ntfs-3g /dev/sda /mnt`会出错(如：The device '/dev/sda' doesn't seem to have a valid NTFS.)， 解决的办法：
+   + 挂载到本地: `mount /dev/sda /mnt`
+   + 修改ntfs配置文件： `vim /etc/exports` 输入共享挂载点`/mnt 10.44.xx.xx(rw,anonuid=0,anongid=0)`
+   + 执行生效命令: `exportfs -r`
+   + 在客户机上使用ntfs进行挂载:`mount.nfs4 10.44.xx.xx:/mnt /local-mnt`
+
+
