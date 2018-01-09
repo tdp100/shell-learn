@@ -77,4 +77,9 @@ xvda                         disk     512     512   40G
 + 执行生效命令: `exportfs -r`
 + 在客户机上使用ntfs进行挂载:`mount.nfs4 10.44.xx.xx:/mnt /local-mnt`
 
+3. 启动RPC进程
 
+```sh
+service rpcbind restart 
+service nfs restart
+```
