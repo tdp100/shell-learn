@@ -15,6 +15,7 @@
 0 1 1 1
 0 0 0 1
 ```
+http://blog.csdn.net/yang20141109/article/details/51541332
 
 
 
