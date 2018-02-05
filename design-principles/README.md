@@ -10,3 +10,7 @@ Spring AOP: http://my.oschina.net/huangyong/blog/161338
 ## 会议
 
 1. IEEE / IFIP Conference on Software Architecture
+
+##  微服务
+
+1. [Chris Richardson 的微服务架构网站](http://microservices.io/patterns/cn/index.html)
