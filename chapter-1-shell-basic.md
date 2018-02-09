@@ -440,7 +440,12 @@ fi
 + ctrl+x 标记一个位置
 + ctrl+c 清除当前的输入
 
+## chapter 9  sh 脚本执行的方式
 
-## chapter 9 linux 资源
++ source
++ exec
++ fork
+
+## chapter 10 linux 资源
 
 http://blog.jobbole.com/76316/
