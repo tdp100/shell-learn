@@ -1,3 +1,4 @@
+## 常用链接
 1. go concurrency
     ------https://docs.google.com/presentation/d/1C7er9lmnCZgTw-WrsRkOEhTtvf5MK1zSMExa3iXW91A/present?slide=id.i77
 
@@ -27,6 +28,10 @@
 10. 配置[file watcher](https://stackoverflow.com/questions/33774950/execute-gofmt-on-file-save-in-intellij)
 
 11. [Golang控制goroutine的启动与关闭](http://www.cnblogs.com/vimsk/p/4866586.html)
+
+## 测试
+
+1. [Testing Go HTTP API](http://dennissuratna.com/testing-in-go/)
 
 ## golang 反射
 
