@@ -17,3 +17,10 @@
 ###  4. [alibaba LVS](https://github.com/alibaba/LVS)
 
 ###  5. [服务注册以及consumer侧做软负载--alibaba dubbo](https://dubbo.gitbooks.io)
+
+##  负载均衡算法的研究
+
+1. [Load Balancing Algorithms in Cloud Computing: A Survey of Modern Techniques](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7396341)
+2. [Comparative Study of Load Balancing Algorithms](https://pdfs.semanticscholar.org/b5a1/0517d04d9f1f9b0e8273ba60e33485d65042.pdf)
+
+
