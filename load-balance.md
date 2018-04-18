@@ -25,4 +25,10 @@
 1. [Load Balancing Algorithms in Cloud Computing: A Survey of Modern Techniques](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7396341)
 2. [Comparative Study of Load Balancing Algorithms](https://pdfs.semanticscholar.org/b5a1/0517d04d9f1f9b0e8273ba60e33485d65042.pdf)
 
+## Client-side load balancer
+
++ [Spring Cloud and Netflix Ribbon: Client-side Load Balancing](https://gooroo.io/GoorooTHINK/Article/17367/Spring-Cloud-and-Netflix-Ribbon-Clientside-Load-Balancing/28985#.Wta8Dy5ubRY)
++ [Client Side Load Balancing with Ribbon and Spring Cloud](https://spring.io/guides/gs/client-side-load-balancing/)
++ [Netflix Ribbon](https://github.com/Netflix/ribbon)
+
 
