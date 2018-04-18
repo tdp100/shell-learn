@@ -30,5 +30,5 @@
 + [Spring Cloud and Netflix Ribbon: Client-side Load Balancing](https://gooroo.io/GoorooTHINK/Article/17367/Spring-Cloud-and-Netflix-Ribbon-Clientside-Load-Balancing/28985#.Wta8Dy5ubRY)
 + [Client Side Load Balancing with Ribbon and Spring Cloud](https://spring.io/guides/gs/client-side-load-balancing/)
 + [Netflix Ribbon](https://github.com/Netflix/ribbon)
-
++ [Netflix Eureka, Service Registration and Discovery](https://spring.io/guides/gs/service-registration-and-discovery/)
 
