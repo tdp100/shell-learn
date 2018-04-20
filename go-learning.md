@@ -97,6 +97,7 @@
 9. [Go programming language secure coding practices guide](https://github.com/Checkmarx/Go-SCP)
 10. [Go 1.8 Plugins](https://speakerdeck.com/ianlewis/getting-plugged-in-with-go-1-dot-8-plugins-at-gophercon-india)
 11. [gopherconindia-slides 2017](http://budhram.in/writing/2017/02/27/gopherconindia-slides/)
+12. [gopherchina 2017](https://github.com/gopherchina/conference/tree/master/2017)
 
 ## 12. books
 
