@@ -37,6 +37,14 @@
 
 1 [在 GOLANG 中用名字调用函数](https://mikespook.com/2012/07/%E5%9C%A8-golang-%E4%B8%AD%E7%94%A8%E5%90%8D%E5%AD%97%E8%B0%83%E7%94%A8%E5%87%BD%E6%95%B0/)
 
+## golang Map
+
+1. [sync.Map](http://colobu.com/2017/07/11/dive-into-sync-Map/)
+
+>>> sync.Map没有Len方法，并且目前没有迹象要加上 (issue#20680),所以如果想得到当前Map中有效的entries的数量，需要使用Range方法遍历一次， 比较X疼。
+
+2. [go-maps-in-action](https://blog.golang.org/go-maps-in-action)
+
 ## 社区
 
 1. [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts)
