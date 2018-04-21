@@ -29,6 +29,8 @@
 
 11. [Golang控制goroutine的启动与关闭](http://www.cnblogs.com/vimsk/p/4866586.html)
 
+12. [https://awesome-go.com/](https://awesome-go.com/)
+
 ## 测试
 
 1. [Testing Go HTTP API](http://dennissuratna.com/testing-in-go/)
