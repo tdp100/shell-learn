@@ -23,3 +23,26 @@
 + %T - Time taken to process the request, in seconds
 + %F - Time taken to commit the response, in millis
 + %I - Current request thread name (can compare later with stacktraces)
+
+## tomcat 进程/线程/连接数
+
+在Linux下，如果连接数比较大，可以使用效率更高的ss来替代netstat。
+
+4、如何查看tomcat对应的进程号：ps -ef|grep tomcat
+
+根据进程号查询对应的目录：/proc/pid/cwd、ls -la /proc/pid/fd
+
+根据目录查找对应的进程：lsof path
+
+5、查看tomcat的线程数：ps -Lf pid|wc -l
+
+6、查看tomcat的并发数：netstat -an|grep 10050|awk '{count[$6]++} END{for (i in count) print(i,count[i])}'
+
+TIME_WAIT 25
+LISTEN 1
+
+7、根据端口号查询对应进程
+
+lsof -Pnl +m -i4|grep port #根据此命令查出端口号对应的进程pid，然后使用ps查到进程信息。
+
+netstat -anp|grep prot  #根据此命令查出端口号对应的进程pid，然后使用ps查到进程信息。
