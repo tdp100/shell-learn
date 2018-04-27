@@ -121,3 +121,10 @@ openssl x509 -req -in req.pem -extfile openssl.cnf -extensions v3_usr -CA cacert
 ```sh
 openssl req -in my.csr -noout -text
 ```
+
+##  SSL & TLS
+
+1. [bulletproof-ssl-and-tls-introduction.pdf](https://www.feistyduck.com/books/bulletproof-ssl-and-tls/bulletproof-ssl-and-tls-introduction.pdf)
+2. [letsencrypt-tls-for-nginx-nginx](https://dzone.com/articles/letsencrypt-tls-for-nginx-nginx)
+3. [bulletproof-ssl-and-tls](https://www.feistyduck.com/books/bulletproof-ssl-and-tls/)
+
