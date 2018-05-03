@@ -10,3 +10,7 @@
 
 1. [loom 轻量级的线程](http://openjdk.java.net/projects/loom/)
 2. [kotlin coroutine](https://kotlinlang.org/docs/reference/coroutines.html)
+
+## reactive stream
+
+1. [Reactive架构升级实践——淘宝全站业务的全异步流式架构升级.pdf]
