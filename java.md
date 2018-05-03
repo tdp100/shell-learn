@@ -13,4 +13,5 @@
 
 ## reactive stream
 
-1. [Reactive架构升级实践——淘宝全站业务的全异步流式架构升级.pdf]
+1. [Reactive架构升级实践——淘宝全站业务的全异步流式架构升级.pdf]()
+2. [reactive stream](http://www.reactive-streams.org/)
