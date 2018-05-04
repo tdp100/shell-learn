@@ -34,6 +34,8 @@
 8. 目标代码生成   ---汇编 / 机器码
 9. 链接   ---可执行文件 / 共享库文件
 
+参考：[An Official Introduction to the Go Compiler](https://github.com/golang/go/blob/master/src/cmd/compile/README.md)
+
 ## 3.阅读汇编代码
 
 1. go build -gcflage="-S" xxx.go
