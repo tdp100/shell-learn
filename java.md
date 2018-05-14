@@ -17,6 +17,7 @@
 2. [reactive stream](http://www.reactive-streams.org/)
 3. [reactive manifesto 响应式宣言](https://www.reactivemanifesto.org)
 4. [reactive flow](http://www.jdon.com/48781)
+4. [发布者和订阅者之间的典型交互顺序](https://www.cnblogs.com/IcanFixIt/p/7245377.html)
 
 ### reactive stream的一些特点
 
