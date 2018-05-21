@@ -6,14 +6,20 @@
 如：
 
 ```sh
+## client tcp
+iperf -c 192.168.2.16 -b 1000M -i 1 -w 1M -t 600 -P 10 -p 5001
 
+## server
+iperf -s -p 5001 &
 ```
+
+并发数据流数量，TCP 窗口大小、最大分段长度、拥塞算法
 
 参考：
 
 1. iperf官网： https://iperf.fr/iperf-doc.php
 2. [像客户一样体验网络 -杜绝启动差异](https://www.viavisolutions.com/en-us/literature/experience-network-your-customers-do-closing-turn-gap-white-paper-zh-hans.pdf)
-
+3. [Azure 中使用 iPerf 进行网络带宽测试](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-network/aog-virtual-network-iperf-bandwidth-test)
 
 ## 2. network tools
 
