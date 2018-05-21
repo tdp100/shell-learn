@@ -1,6 +1,21 @@
 # network
 
-## 1. network tools
+## 1. 网络带宽测试
+
+1. 使用iperf工具， iperf工具是一个client/server工具，用于TCP/UDP报文的性能测试。
+如：
+
+```sh
+
+```
+
+参考：
+
+1. iperf官网： https://iperf.fr/iperf-doc.php
+2. [像客户一样体验网络 -杜绝启动差异](https://www.viavisolutions.com/en-us/literature/experience-network-your-customers-do-closing-turn-gap-white-paper-zh-hans.pdf)
+
+
+## 2. network tools
 
 1. ipcalc
 
