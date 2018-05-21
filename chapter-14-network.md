@@ -20,6 +20,8 @@ iperf -s -p 5001 &
 1. iperf官网： https://iperf.fr/iperf-doc.php
 2. [像客户一样体验网络 -杜绝启动差异](https://www.viavisolutions.com/en-us/literature/experience-network-your-customers-do-closing-turn-gap-white-paper-zh-hans.pdf)
 3. [Azure 中使用 iPerf 进行网络带宽测试](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/virtual-network/aog-virtual-network-iperf-bandwidth-test)
+4. book [Web性能权威指南（High Performance Browser Networking）](http://www.powerxing.com/reading-high-performance-browser-networking-ch2/) 
+5. A primer on latency and bandwidth: https://www.oreilly.com/learning/primer-on-latency-and-bandwidth
 
 ## 2. network tools
 
