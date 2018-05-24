@@ -163,7 +163,7 @@ net.ipv4.tcp_syncookies = 1
 net.core.somaxconn = 1024
 ```
 
-### 3. 系统配置优化之文件句柄`/etc/sysctl.conf`
+### 3.5 系统配置优化之文件句柄`/etc/sysctl.conf`
 
 增加文件句柄数，由tcp会与一些文件关联，比如：
 ```shell
@@ -199,3 +199,11 @@ events {
     worker_connections 100000;
 }
 ```
+
+### 4. [准备获取访问者真实IP的方法](https://www.alibabacloud.com/help/zh/doc-detail/35620.htm)
+
+将业务流量正式切换到Web应用防火墙后，对于该网站的访问就不再是简单地从用户的浏览器直达服务器，中间将至少经过Web应用防火墙进行转发。在这种情况下，您需要通过额外的方法获得真正发起请求的真实客户端IP。
+
+说明：一般情况下，当一个透明的代理服务器将用户的请求转到下一环节的服务器时，会在HTTP的头部增加一条X-Forwarded-For记录，用于记录用户的真实IP，其形式为X-Forwarded-For:用户IP。因此，如果真实客户端与网站服务器中间经历了多个代理服务器，X-Forwarded-For将以该形式来展示所经过的代理服务器IP及真实用户IP：X-Forwarded-For:用户IP, 代理服务器1-IP, 代理服务器2-IP, 代理服务器3-IP, ……。
+
+因此，在将您的网站域名正式接入Web应用防火墙防护后，您可以使用X-Forwarded-For的方式来获取访问者真实IP。关于具体的配置方法，请查看获取访问者真实IP配置方法。
