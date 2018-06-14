@@ -1,6 +1,6 @@
 ## VLAN
 
-IEEE 802.1Q中定义的VLAN Tag域只有12比特，仅能表示4096个VLAN
+IEEE 802.1Q中定义的VLAN Tag域只有12比特，仅能表示4096个VLAN。 每个租户都需要独立的隔离广播域，只能支持4K个租户。
 
 ## VXLAN
 
