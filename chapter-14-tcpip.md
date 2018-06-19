@@ -13,3 +13,9 @@ RFC7348定义了VXLAN扩展方案（Virtual eXtensible Local Area Network），�
 - VNI - VXLAN Network Identifier (or VXLAN Segment ID)
 
 1. [overlay网络技术之VXLAN详解](http://network.51cto.com/art/201312/425388.htm)
+
+## VRF
+
+Virtual Routing forwarding(虚拟路由转发表),也是VPN-instance。
+
+## NAT
