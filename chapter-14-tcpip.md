@@ -19,3 +19,8 @@ RFC7348定义了VXLAN扩展方案（Virtual eXtensible Local Area Network），�
 Virtual Routing forwarding(虚拟路由转发表),也是VPN-instance。
 
 ## NAT
+
+
+## 学习资料
+
++ [理解 TCP 和 UDP](https://legacy.gitbook.com/book/jerryc8080/understand-tcp-and-udp/details)
