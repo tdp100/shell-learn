@@ -47,6 +47,10 @@
 
 2. [go-maps-in-action](https://blog.golang.org/go-maps-in-action)
 
+## cgo
+
+1.  [CGO编程](https://chai2010.gitbooks.io/advanced-go-programming-book/content/ch2-cgo/ch2-07-memory.html)
+
 ## 社区
 
 1. [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts)
