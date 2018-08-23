@@ -55,3 +55,8 @@
 
 1. [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts)
 2. [github gophercon](https://github.com/gophercon/2017-talks)
+
+## golang101
+
+1. [panic-and-recover-use-cases](https://go101.org/article/panic-and-recover-use-cases.html)
+2. [优雅地关闭channel](https://www.jianshu.com/p/d24dfbb33781)
