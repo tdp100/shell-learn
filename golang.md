@@ -60,3 +60,4 @@
 
 1. [panic-and-recover-use-cases](https://go101.org/article/panic-and-recover-use-cases.html)
 2. [优雅地关闭channel](https://www.jianshu.com/p/d24dfbb33781)
+3. [业界流行的令牌桶(token-bucket)算法](https://www.alexedwards.net/blog/how-to-rate-limit-http-requests)
