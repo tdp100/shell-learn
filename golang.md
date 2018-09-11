@@ -62,3 +62,4 @@
 2. [优雅地关闭channel](https://www.jianshu.com/p/d24dfbb33781)
 3. [业界流行的令牌桶(token-bucket)算法](https://www.alexedwards.net/blog/how-to-rate-limit-http-requests)
 4. [aliyun流控的博客](https://blog.jamespan.me/2015/10/19/traffic-shaping-with-token-bucket)
+5. [http stats中间件](https://github.com/thoas/stats)
