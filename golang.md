@@ -63,3 +63,4 @@
 3. [业界流行的令牌桶(token-bucket)算法](https://www.alexedwards.net/blog/how-to-rate-limit-http-requests)
 4. [aliyun流控的博客](https://blog.jamespan.me/2015/10/19/traffic-shaping-with-token-bucket)
 5. [http stats中间件](https://github.com/thoas/stats)
+6. [body 重用](https://medium.com/@xoen/golang-read-from-an-io-readwriter-without-loosing-its-content-2c6911805361)
