@@ -64,3 +64,4 @@
 4. [aliyun流控的博客](https://blog.jamespan.me/2015/10/19/traffic-shaping-with-token-bucket)
 5. [http stats中间件](https://github.com/thoas/stats)
 6. [body 重用](https://medium.com/@xoen/golang-read-from-an-io-readwriter-without-loosing-its-content-2c6911805361)
+7. [Diving Deep Into The Golang Channels](https://codeburst.io/diving-deep-into-the-golang-channels-549fd4ed21a8)
