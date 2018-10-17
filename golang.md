@@ -65,3 +65,8 @@
 5. [http stats中间件](https://github.com/thoas/stats)
 6. [body 重用](https://medium.com/@xoen/golang-read-from-an-io-readwriter-without-loosing-its-content-2c6911805361)
 7. [Diving Deep Into The Golang Channels](https://codeburst.io/diving-deep-into-the-golang-channels-549fd4ed21a8)
+8. [HTTP Client based on middlewares](https://www.reddit.com/r/golang/comments/5ijwdp/http_client_based_on_middlewares/)
+   + [cliware](https://github.com/delicb/cliware/blob/2b464a60fa549906d68c406a86ee6f7ffdc4de06/cliware.go)
+   + [cliware-middlewares](https://github.com/delicb/cliware-middlewares/blob/b0fb368b63b5548808f0b7532f6a8f0280c34e4c/errors/errors.go)
+   + [gentleman](https://github.com/h2non/gentleman)
+   
