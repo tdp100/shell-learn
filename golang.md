@@ -71,3 +71,4 @@
    + [gentleman](https://github.com/h2non/gentleman)
    
 9. [使用buffer以及in/out channel达到动态调整channel的大小](https://groups.google.com/forum/?nomobile=true#!topic/golang-nuts/RkGSPl5xOqM)
+   + [Communicating Sequential Processes for JavaTM](https://www.cs.kent.ac.uk/projects/ofa/jcsp/)
