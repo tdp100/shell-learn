@@ -70,3 +70,4 @@
    + [cliware-middlewares](https://github.com/delicb/cliware-middlewares/blob/b0fb368b63b5548808f0b7532f6a8f0280c34e4c/errors/errors.go)
    + [gentleman](https://github.com/h2non/gentleman)
    
+9. [使用buffer以及in/out channel达到动态调整channel的大小](https://groups.google.com/forum/?nomobile=true#!topic/golang-nuts/RkGSPl5xOqM)
