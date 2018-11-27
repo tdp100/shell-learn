@@ -15,7 +15,10 @@ ls -l /proc/<pid>/fd | wc -l
 sudo find /proc -print | grep -P '/proc/\d+/fd/'| awk -F '/' '{print $3}' | uniq -c | sort -rn | head
 ```
 
-4. 查看进程打开的TCP连接数
+4. 查看系统打开的TCP连接数
+```sh
+netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'
+```
 
 ## 参考
 
