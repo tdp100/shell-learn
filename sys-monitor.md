@@ -23,3 +23,4 @@ netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'
 ## 参考
 
 1. https://www.jianshu.com/p/407c2baef92e
+2. https://my.oschina.net/lionel45/blog/109779
