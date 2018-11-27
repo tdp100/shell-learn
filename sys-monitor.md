@@ -20,7 +20,13 @@ sudo find /proc -print | grep -P '/proc/\d+/fd/'| awk -F '/' '{print $3}' | uniq
 netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'
 ```
 
+4. 查看系统中目的端口为memcached 11211的TCP连接
+```sh
+ ss -ta state established dport = :11211
+```
+
 ## 参考
 
 1. https://www.jianshu.com/p/407c2baef92e
 2. https://my.oschina.net/lionel45/blog/109779
+3. https://www.rootusers.com/21-ss-command-examples-in-linux/
