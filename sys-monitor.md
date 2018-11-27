@@ -20,9 +20,19 @@ sudo find /proc -print | grep -P '/proc/\d+/fd/'| awk -F '/' '{print $3}' | uniq
 netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'
 ```
 
-4. 查看系统中目的端口为memcached 11211的TCP连接
+5. 查看系统中目的端口为memcached 11211的TCP连接
 ```sh
  ss -ta state established dport = :11211
+```
+
+6. 与服务端7443端口建立的TCP连接数
+```sh
+ ss -ta '( sport = :7443 ) '
+```
+
+7. 服务端7443端口状态为LISTEN的个数
+```sh
+ss -ta state listening '( sport = :7443 ) '
 ```
 
 ## 参考
