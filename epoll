@@ -1,0 +1,7 @@
+1. [linux epoll document](http://man7.org/linux/man-pages/man7/epoll.7.html)
+
+2. [Blocking I/O, Nonblocking I/O, And Epoll](https://eklitzke.org/blocking-io-nonblocking-io-and-epoll)
+
+3. [分析Nginx epoll高效事件模型](https://blog.csdn.net/shixiaoguo90/article/details/22934093)
+
+4. [epoll模型及其框架(内附epoll 线程池项目代码)](https://blog.csdn.net/qq327767852/article/details/50791645)
