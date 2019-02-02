@@ -8,7 +8,8 @@
 
 2. [wiredtiger 存储引擎原理](https://yq.aliyun.com/articles/255163)
 
-3. [LSM Tree](https://www.cs.umb.edu/~poneil/lsmtree.pdf)
+3. [LSM Tree 论文](https://www.cs.umb.edu/~poneil/lsmtree.pdf)
+4. [LSM Tree的理解](http://www.importnew.com/28083.html)
 
 ### Sharded cluster
 
