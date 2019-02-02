@@ -8,6 +8,8 @@
 
 2. [wiredtiger 存储引擎原理](https://yq.aliyun.com/articles/255163)
 
+3. [LSM Tree](https://www.cs.umb.edu/~poneil/lsmtree.pdf)
+
 ### Sharded cluster
 
 1. [MongoDB Sharded cluster架构原理](https://yq.aliyun.com/articles/32434?spm=a2c4e.11153940.blogcont60096.5.4fb078ddnEXTiD)
@@ -24,5 +26,4 @@
     1. 将shard副本集分散到不同的数据中心
     
     
-
    
