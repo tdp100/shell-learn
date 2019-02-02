@@ -6,6 +6,8 @@
    2. 使用位视图和位偏移实现多个计数器的在两同一个变量中实现原子操作。减少了多线程场景下因为CPU繁忙导致CAS原子操作时的busy。
    3. 使用50ms超时来解决空闲时full-sync问题
 
+2. [wiredtiger 存储引擎原理](https://yq.aliyun.com/articles/255163)
+
 ### Sharded cluster
 
 1. [MongoDB Sharded cluster架构原理](https://yq.aliyun.com/articles/32434?spm=a2c4e.11153940.blogcont60096.5.4fb078ddnEXTiD)
@@ -21,5 +23,6 @@
 
     1. 将shard副本集分散到不同的数据中心
     
-   
+    
+
    
