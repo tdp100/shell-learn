@@ -17,6 +17,9 @@
     5. 当各个shard上chunk数量不均衡时，会触发chunk在shard间的迁移
     6. database开启分片， collection开启数据分片
 
+2. [MongoDB Multi-Data Center Deployments](http://s3.amazonaws.com/info-mongodb-com/MongoDB_Multi_Data_Center.pdf)
+
+    1. 将shard副本集分散到不同的数据中心
     
    
    
