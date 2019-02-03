@@ -8,8 +8,10 @@
 
 2. [wiredtiger 存储引擎原理](https://yq.aliyun.com/articles/255163)
 
-3. [LSM Tree 论文](https://www.cs.umb.edu/~poneil/lsmtree.pdf)
-4. [LSM Tree的理解](http://www.importnew.com/28083.html)
+### LSM Tree
+
+1. [LSM Tree 论文](https://www.cs.umb.edu/~poneil/lsmtree.pdf)
+2. [LSM Tree的理解](http://www.importnew.com/28083.html)
 
 ### Sharded cluster
 
@@ -26,5 +28,8 @@
 
     1. 将shard副本集分散到不同的数据中心
     
-    
+### 分布式存储
+
+1. 提供数据块的EC
+2. 上层业务管理数据块的申请、引用、GC(数据块的合并、删除)
    
