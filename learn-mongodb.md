@@ -13,6 +13,10 @@
 1. [LSM Tree 论文](https://www.cs.umb.edu/~poneil/lsmtree.pdf)
 2. [LSM Tree的理解](http://www.importnew.com/28083.html)
 
+### Mongodb 索引
+
+1. [MongoDB索引原理](https://yq.aliyun.com/articles/643756?spm=a2c4e.11153959.0.0.55fd8cb6FTX9YY)
+
 ### Sharded cluster
 
 1. [MongoDB Sharded cluster架构原理](https://yq.aliyun.com/articles/32434?spm=a2c4e.11153940.blogcont60096.5.4fb078ddnEXTiD)
