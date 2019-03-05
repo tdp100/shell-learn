@@ -18,3 +18,7 @@ MD5以512位分组来处理输入的信息， 且每一分组又被划分为16�
 
 原文地址:http://drops.wooyun.org/papers/12396
 [MD5碰撞的演化之路](https://wooyun.js.org/drops/MD5%E7%A2%B0%E6%92%9E%E7%9A%84%E6%BC%94%E5%8C%96%E4%B9%8B%E8%B7%AF.html)
+
+### SHA家族Wiki
+
+[SHA家族](https://zh.wikipedia.org/wiki/SHA%E5%AE%B6%E6%97%8F)
