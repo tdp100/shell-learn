@@ -76,3 +76,7 @@
 ## golang file
 
 1.  func (*File) Seek该接口，不支持append flag的文件。if any. The behavior of Seek on a file opened with O_APPEND is not specified.在超大文件的磁盘缓存中，不能同时使用append和seek。
+
+## golang pool
+
+1. 一切可动态创建和回收的对象都可以使用pool, https://www.programming-books.io/essential/go/ec2352421ba7472ab82d9dcc71d2c389-sync.pool-for-better-performance
