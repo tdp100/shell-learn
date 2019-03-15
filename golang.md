@@ -72,3 +72,7 @@
    
 9. [使用buffer以及in/out channel达到动态调整channel的大小](https://groups.google.com/forum/?nomobile=true#!topic/golang-nuts/RkGSPl5xOqM)
    + [Communicating Sequential Processes for JavaTM](https://www.cs.kent.ac.uk/projects/ofa/jcsp/)
+
+## golang file
+
+1.  func (*File) Seek该接口，不支持append flag的文件。if any. The behavior of Seek on a file opened with O_APPEND is not specified.在超大文件的磁盘缓存中，不能同时使用append和seek。
