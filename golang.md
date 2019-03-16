@@ -80,3 +80,5 @@
 ## golang pool
 
 1. 一切可动态创建和回收的对象都可以使用pool, https://www.programming-books.io/essential/go/ec2352421ba7472ab82d9dcc71d2c389-sync.pool-for-better-performance
+
+2. https://robreid.io/sync-pool/
