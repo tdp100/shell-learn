@@ -82,3 +82,8 @@
 1. 一切可动态创建和回收的对象都可以使用pool, https://www.programming-books.io/essential/go/ec2352421ba7472ab82d9dcc71d2c389-sync.pool-for-better-performance
 
 2. https://robreid.io/sync-pool/
+
+## golang limit redirect
+
+1. golang stdlib中，Client.CheckRedirect可以自定义处理重定向的次数。 系统默认有一个checkRedrect，10次就行了。
+2. https://studygolang.com/articles/2974
