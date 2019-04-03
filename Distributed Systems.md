@@ -10,3 +10,7 @@
 
    [How to do distributed locking](https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html)
    [基于Redis的分布式锁到底安全吗](http://zhangtielei.com/posts/blog-redlock-reasoning.html)
+
+4.  分布式事务
+
+   [微服务架构下分布式事务解决方案 —— 阿里GTS](https://yq.aliyun.com/articles/542020?spm=a2c4e.11163080.searchblog.9.e28f2ec1xpW1Ot)
