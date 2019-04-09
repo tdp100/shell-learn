@@ -14,3 +14,5 @@
 4.  分布式事务
 
    [微服务架构下分布式事务解决方案 —— 阿里GTS](https://yq.aliyun.com/articles/542020?spm=a2c4e.11163080.searchblog.9.e28f2ec1xpW1Ot)
+   
+5. [左耳朵耗子推荐：分布式系统架构经典资料](https://www.infoq.cn/article/2018/05/distributed-system-architecture)
