@@ -12,3 +12,7 @@ SETTINGS->General->Request->SSL certification verification off
 ```
 Generate Code
 ```
+
+## Postman 扩展
+
+https://learning.getpostman.com/docs/postman/scripts/intro_to_scripts/#execution-order-of-scripts
