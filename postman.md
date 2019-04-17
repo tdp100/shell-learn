@@ -16,3 +16,5 @@ Generate Code
 ## Postman 扩展
 
 https://learning.getpostman.com/docs/postman/scripts/intro_to_scripts/#execution-order-of-scripts
+
+[Pre-request script for Postman, to calculate HttpSignature](https://www.dinochiesa.net/?p=1514)
