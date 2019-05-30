@@ -3,7 +3,9 @@
 
 参考： https://security.stackexchange.com/questions/56389/ssl-certificate-framework-101-how-does-the-browser-actually-verify-the-validity
 
-## 2. Client如何验证服务端证书
+## 2. Browser如何验证证书
+
++ [Browsers and Certificate Validation](https://www.ssl.com/article/browsers-and-certificate-validation/)
 
 ## 3. 服务端证书的种类？
 
