@@ -129,4 +129,4 @@ openssl req -in my.csr -noout -text
 1. [bulletproof-ssl-and-tls-introduction.pdf](https://www.feistyduck.com/books/bulletproof-ssl-and-tls/bulletproof-ssl-and-tls-introduction.pdf)
 2. [letsencrypt-tls-for-nginx-nginx](https://dzone.com/articles/letsencrypt-tls-for-nginx-nginx)
 3. [bulletproof-ssl-and-tls](https://www.feistyduck.com/books/bulletproof-ssl-and-tls/)
-
+4. [A Detailed Look at RFC 8446 (a.k.a. TLS 1.3)](https://blog.cloudflare.com/rfc-8446-aka-tls-1-3/)
