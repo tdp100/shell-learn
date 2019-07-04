@@ -1,0 +1,32 @@
+素数埃拉托斯特尼筛法[https://zh.wikipedia.org/wiki/%E5%9F%83%E6%8B%89%E6%89%98%E6%96%AF%E7%89%B9%E5%B0%BC%E7%AD%9B%E6%B3%95]
+
+```go
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func main() {
+	eratosthenes(13)
+}
+
+func eratosthenes(n int) {
+	var A []bool = make([]bool, n+1)
+	for i := 0; i < n+1; i++ {
+		A[i] = true
+	}
+	A[0] = false
+	A[1] = A[0]
+	k := int(math.Sqrt(float64(n))) + 1
+	for i := 2; i <= k; i++ {
+		if A[i] {
+			for j := i * i; j <= n; j += i {
+				A[j] = false
+			}
+		}
+	}
+	fmt.Println(A)
+}
+```
