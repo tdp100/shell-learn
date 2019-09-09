@@ -7,3 +7,4 @@
 6. [C-GO-CGO](https://blog.golang.org/c-go-cgo)
 7. [Go_references_to_C](https://golang.org/cmd/cgo/#hdr-Go_references_to_C)
 8. [gccgo](https://golang.org/doc/install/gccgo)
+10. [from Source to Binary: How GNU Toolchain Works](https://www.slideshare.net/jserv/from-source-to-binary-how-gnu-toolchain-works)
