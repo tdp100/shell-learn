@@ -1,0 +1,9 @@
+1. [Go语言高级编程-CGO](https://chai2010.cn/advanced-go-programming-book/ch2-cgo/ch2-07-memory.html)
+2. [safe.Pointer](https://studygolang.com/articles/20847)
+3. [//go:linkname](https://studygolang.com/articles/15842)
+4. [//go:linkname](https://golang.org/src/cmd/compile/doc.go?h=Compile)
+5. [CGO](https://golang.org/cmd/cgo/)
+   >Exception: static variables in the preamble may not be referenced from Go code; static functions are permitted.
+6. [C-GO-CGO](https://blog.golang.org/c-go-cgo)
+7. [Go_references_to_C](https://golang.org/cmd/cgo/#hdr-Go_references_to_C)
+8. [gccgo](https://golang.org/doc/install/gccgo)
