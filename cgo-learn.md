@@ -4,6 +4,8 @@
 4. [//go:linkname](https://golang.org/src/cmd/compile/doc.go?h=Compile)
 5. [CGO](https://golang.org/cmd/cgo/)
    >Exception: static variables in the preamble may not be referenced from Go code; static functions are permitted.
+   >在C中，static是relocatable object内可见，其它relocatable object不可见，不能被链接。
+   >[Chapter 7 Object File Format](https://docs.oracle.com/cd/E19120-01/open.solaris/819-0690/6n33n7fcb/index.html)
 6. [C-GO-CGO](https://blog.golang.org/c-go-cgo)
 7. [Go_references_to_C](https://golang.org/cmd/cgo/#hdr-Go_references_to_C)
 8. [gccgo](https://golang.org/doc/install/gccgo)
