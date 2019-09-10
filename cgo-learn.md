@@ -14,6 +14,11 @@
 10. [from Source to Binary: How GNU Toolchain Works](https://www.slideshare.net/jserv/from-source-to-binary-how-gnu-toolchain-works)
 11. [The C++ compilation process](http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/compile.html)
 
+### GO Tool
+
+1. go tool objdump
+   >go tool objdump [-S] [-s symregexp] binary [start end]
+
 ### 格式
 
 1. ELF
