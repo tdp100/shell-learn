@@ -18,7 +18,10 @@
 
 1. go tool objdump
    >go tool objdump [-S] [-s symregexp] binary [start end]
-
+   
+2. go tool link
+   >go tool link [flags] main.a
+   
 ### 格式
 
 1. ELF
