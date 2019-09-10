@@ -1,3 +1,5 @@
+### 基础知识
+
 1. [Go语言高级编程-CGO](https://chai2010.cn/advanced-go-programming-book/ch2-cgo/ch2-07-memory.html)
 2. [safe.Pointer](https://studygolang.com/articles/20847)
 3. [//go:linkname](https://studygolang.com/articles/15842)
@@ -10,3 +12,8 @@
 7. [Go_references_to_C](https://golang.org/cmd/cgo/#hdr-Go_references_to_C)
 8. [gccgo](https://golang.org/doc/install/gccgo)
 10. [from Source to Binary: How GNU Toolchain Works](https://www.slideshare.net/jserv/from-source-to-binary-how-gnu-toolchain-works)
+11. [The C++ compilation process](http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/compile.html)
+
+### 格式
+
+1. ELF
