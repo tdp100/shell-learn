@@ -34,7 +34,7 @@
 >***When the Go tool sees that one or more Go files use the special import "C", it will look for other non-Go files in the directory and compile them as part of the Go package***. Any .c, .s, or .S files will be compiled with the C compiler. Any .cc, .cpp, or .cxx files will be compiled with the C++ compiler. Any .f, .F, .for or .f90 files will be compiled with the fortran compiler. Any .h, .hh, .hpp, or .hxx files will not be compiled separately, but, if these header files are changed, the package (including its non-Go source files) will be recompiled. Note that changes to files in other directories do not cause the package to be recompiled, ***so all non-Go source code for the package should be stored in the package directory, not in subdirectories.*** The default C and C++ compilers may be changed by the CC and CXX environment variables, respectively; those environment variables may include command line options.
 
 
-如果要编译单独的一个go文件， 只能先将c文件编译成静态/动态库。
+如果要编译单独的一个go文件， 只能先将c文件编译成动态库。
 
 step1 `gcc -fPIC -shared -o libfoo.so foo.c`
 
@@ -42,3 +42,15 @@ step2 `export CGO_LDFLAGS="-Wl,-Bdynamic -L/path -lfoo"`
 
 step3 `go build xxx.go`
 
+如果要静态链接，先将c文件编译成静态库
+```
+gcc -c -o foo.o foo.c
+ar rcs o libfoo.a foo.o
+export CGO_LDFLAGS="-Wl,-Bstatic -L/pathtofoo -lfoo -Wl,-Bdynamic -lpthread -lgcc_s -lc -ldl -lrt"
+go build -x --ldflags '-linkmode external -extldflags "-static"' foo.go
+ldd foo
+##--ldflags '-linkmode external -extldflags "-static"'  是传给go link的参数
+##/opt/go/pkg/tool/linux_amd64/link -o $WORK/b001/exe/a.out -importcfg $WORK/b001/importcfg.link -buildmode=exe -##buildid=7vcbOOAdAfo1KTmt2g_1/zUkCWauDtjHIM8MX5O1O/WZxhSWLXYPrLlaRz99hl/7vcbOOAdAfo1KTmt2g_1 -linkmode external -extldflags -static -##extld=gcc $WORK/b001/_pkg_.a
+```
+
+静态/动态编译：https://renenyffenegger.ch/notes/development/languages/C-C-plus-plus/GCC/create-libraries/index
