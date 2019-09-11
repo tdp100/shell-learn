@@ -125,7 +125,11 @@ netstat -ta
 
 8. 端口映射工具（IPOP）
 
-## 2. 虚拟化技术
+## 2. 高性能网络编程
+
+[一文读懂高性能网络编程中的I/O模型](http://www.52im.net/thread-1935-1-1.html)
+
+## 3. 虚拟化技术
 
 1 分布式虚拟的交换机：http://www.huawei.com/ilink/cnenterprise/download/HW_401035
 
