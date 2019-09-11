@@ -31,3 +31,5 @@
 具体问题： https://github.com/golang/go/issues/24592
 
 使用go build xxx.go会找不到C语言定义的函数，需要直接build整个包。
+
+>***When the Go tool sees that one or more Go files use the special import "C", it will look for other non-Go files in the directory and compile them as part of the Go package***. Any .c, .s, or .S files will be compiled with the C compiler. Any .cc, .cpp, or .cxx files will be compiled with the C++ compiler. Any .f, .F, .for or .f90 files will be compiled with the fortran compiler. Any .h, .hh, .hpp, or .hxx files will not be compiled separately, but, if these header files are changed, the package (including its non-Go source files) will be recompiled. Note that changes to files in other directories do not cause the package to be recompiled, ***so all non-Go source code for the package should be stored in the package directory, not in subdirectories.*** The default C and C++ compilers may be changed by the CC and CXX environment variables, respectively; those environment variables may include command line options.
