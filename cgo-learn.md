@@ -25,3 +25,9 @@
 ### 格式
 
 1. ELF
+
+### 编译CGO
+
+具体问题： https://github.com/golang/go/issues/24592
+
+使用go build xxx.go会找不到C语言定义的函数，需要直接build整个包。
