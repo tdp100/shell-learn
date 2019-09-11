@@ -34,5 +34,9 @@
 >***When the Go tool sees that one or more Go files use the special import "C", it will look for other non-Go files in the directory and compile them as part of the Go package***. Any .c, .s, or .S files will be compiled with the C compiler. Any .cc, .cpp, or .cxx files will be compiled with the C++ compiler. Any .f, .F, .for or .f90 files will be compiled with the fortran compiler. Any .h, .hh, .hpp, or .hxx files will not be compiled separately, but, if these header files are changed, the package (including its non-Go source files) will be recompiled. Note that changes to files in other directories do not cause the package to be recompiled, ***so all non-Go source code for the package should be stored in the package directory, not in subdirectories.*** The default C and C++ compilers may be changed by the CC and CXX environment variables, respectively; those environment variables may include command line options.
 
 
-如果要编译单独的一个go文件，只能先将c文件编译成静态/动态库， 然后再go文件中链接该库。
-'gcc -fPIC -shared -o libfoo.so foo.c '
+如果要编译单独的一个go文件， 只能先将c文件编译成静态/动态库。
+
+step1 `gcc -fPIC -shared -o libfoo.so foo.c`
+step2 `export CGO_LDFLAGS="-Wl,-Bdynamic -L/path -lfoo"`
+step3 `go build xxx.go`
+
