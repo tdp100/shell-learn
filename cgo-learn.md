@@ -37,6 +37,8 @@
 如果要编译单独的一个go文件， 只能先将c文件编译成静态/动态库。
 
 step1 `gcc -fPIC -shared -o libfoo.so foo.c`
+
 step2 `export CGO_LDFLAGS="-Wl,-Bdynamic -L/path -lfoo"`
+
 step3 `go build xxx.go`
 
