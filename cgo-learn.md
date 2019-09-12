@@ -43,12 +43,17 @@ step2 `export CGO_LDFLAGS="-Wl,-Bdynamic -L/path -lfoo"`
 step3 `go build xxx.go`
 
 如果要静态链接，先将c文件编译成静态库
-```
-gcc -c -o foo.o foo.c
-ar rcs o libfoo.a foo.o
-export CGO_LDFLAGS="-Wl,-Bstatic -L/pathtofoo -lfoo -Wl,-Bdynamic -lpthread -lgcc_s -lc -ldl -lrt"
-go build -x --ldflags '-linkmode external -extldflags "-static"' foo.go
-ldd foo
+
+step1 `gcc -c -o foo.o foo.c`
+
+step2 `ar rcs o libfoo.a foo.o`
+
+step3 `export CGO_LDFLAGS='"-Wl,-Bstatic" "-L/root/gotest/src/cgotest" "-lhello" "-Wl,-Bdynamic" "-lpthread" "-lgcc_s" "-lc" "-ldl" "-lrt" "-Wl,-dynamic-linker=/lib64/ld-linux-x86-64.so.2"'`
+
+step4 `go build -x --ldflags '-linkmode external -extldflags "-static"' foo.go`
+
+step5 `ldd foo`
+
 ##--ldflags '-linkmode external -extldflags "-static"'  是传给go link的参数
 ##/opt/go/pkg/tool/linux_amd64/link -o $WORK/b001/exe/a.out -importcfg $WORK/b001/importcfg.link -buildmode=exe -##buildid=7vcbOOAdAfo1KTmt2g_1/zUkCWauDtjHIM8MX5O1O/WZxhSWLXYPrLlaRz99hl/7vcbOOAdAfo1KTmt2g_1 -linkmode external -extldflags -static -##extld=gcc $WORK/b001/_pkg_.a
 ```
