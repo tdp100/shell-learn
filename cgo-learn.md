@@ -48,7 +48,7 @@ step1 `gcc -c -o foo.o foo.c`
 
 step2 `ar rcs o libfoo.a foo.o`
 
-step3 `export CGO_LDFLAGS='"-Wl,-Bstatic" "-L/root/gotest/src/cgotest" "-lhello" "-Wl,-Bdynamic" "-lpthread" "-lgcc_s" "-lc" "-ldl" "-lrt" "-Wl,-dynamic-linker=/lib64/ld-linux-x86-64.so.2"'`
+step3 `export CGO_LDFLAGS="-Wl,-Bstatic -L/root/gotest/src/cgotest -lhello -Wl,-Bdynamic -lpthread -lgcc_s -lc -ldl -lrt -Wl,-dynamic-linker=/lib64/ld-linux-x86-64.so.2"`
 
 step4 `go build -x --ldflags '-linkmode external -extldflags "-static"' foo.go`
 
