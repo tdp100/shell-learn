@@ -3,6 +3,7 @@
 + VXLAN
 + VNI
 + VTEP
++ NVE（Network Virtualization Edge，网络虚拟边缘节点）
 
 ### 学习材料
 
