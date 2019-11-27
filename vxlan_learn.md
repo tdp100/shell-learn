@@ -3,7 +3,10 @@
 + VXLAN
 + VNI
 + VTEP
-+ NVE（Network Virtualization Edge，网络虚拟边缘节点）
++ NVE(Network Virtualization Edge，网络虚拟边缘节点)
++ BD(Bridge-Domain)
++ VXLAN L2 Gateway
++ VXLAN L3 Gateway
 
 ### 学习材料
 
