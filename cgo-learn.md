@@ -59,3 +59,8 @@ step5 `ldd foo`
 ```
 
 静态/动态编译：https://renenyffenegger.ch/notes/development/languages/C-C-plus-plus/GCC/create-libraries/index
+
+
+## Go 1.5 buildcompile问题
+
+1. [Sharing Golang packages to C and Go](http://blog.ralch.com/tutorial/golang-sharing-libraries/)
