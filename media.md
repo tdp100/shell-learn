@@ -1,0 +1,5 @@
+1. [global-formats-report](https://www.encoding.com/resources/#global-formats-report)
+2. [Comparison_of_video_container_formats](https://en.wikipedia.org/wiki/Comparison_of_video_container_formats)
+3. [matrox 用于推流的多通道编码技术 基础知识](https://www.matrox.com/graphics/media/pdf/press/guides/multi-channel-encoding/cs_fundamentals_of_multi_channel_encoding_for_streaming.pdf)
+4. [[总结]视音频编解码技术零基础学习方法](https://blog.csdn.net/leixiaohua1020/article/details/18893769)
+5. [码率，分辨率，帧率](https://www.jianshu.com/p/028196b8ca14)
