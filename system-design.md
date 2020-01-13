@@ -6,3 +6,7 @@
 ## Research
 
 1. Microsoft https://www.microsoft.com/en-us/research/search/
+
+## Person
+
+1. Butler W. Lampson  http://bwlampson.site/
