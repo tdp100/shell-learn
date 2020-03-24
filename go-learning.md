@@ -76,12 +76,18 @@
 1. pprof
 2. Env
 
-## 9. scheduler
+## 9. 调试工具
+
+1. [delve](https://github.com/go-delve/delve/blob/master/Documentation/usage/dlv.md)
+2. [core dump文件的生成和解析工具与方法](https://segmentfault.com/a/1190000010684345)
+3. [GDB]()
+
+## 10. scheduler
 
 1. [Linux 2.6 CFS](http://www.ibm.com/developerworks/library/l-completely-fair-scheduler/l-completely-fair-scheduler-pdf.pdf)
 2. [Con Kolivas's blog](http://ck-hack.blogspot.com/)
 
-## 10. concurrency
+## 11. concurrency
 
 1. [Golang concurrency - data races](http://wysocki.in/golang-concurrency-data-races/)
 2. [C. A. R. Hoare Communicating Sequential Processes](http://usingcsp.com/cspbook.pdf)
@@ -90,7 +96,7 @@
 5. [err group](https://www.oreilly.com/learning/run-strikingly-fast-parallel-file-searches-in-go-with-sync-errgroup)
 6. [最精妙的流控](https://pauladamsmith.com/blog/2016/04/max-clients-go-net-http.html)
 
-## 11. others
+## 12. others
 1. [Linux Signal及Golang中的信号处理](http://colobu.com/2015/10/09/Linux-Signals/)
 2. [GopherChina sliders](https://github.com/gopherchina)
 3. [雨痕-学习笔记](https://github.com/qyuhen/book)
@@ -104,12 +110,12 @@
 11. [gopherconindia-slides 2017](http://budhram.in/writing/2017/02/27/gopherconindia-slides/)
 12. [gopherchina 2017](https://github.com/gopherchina/conference/tree/master/2017)
 
-## 12. books
+## 13. books
 
 1. [go programming blueprint](https://books.google.com/books?id=15XcDgAAQBAJ&lpg=PA163&ots=iVzVyqPJPh&dq=should%20not%20use%20basic%20type%20string%20as%20key%20in%20context.WithValue&pg=PP3#v=twopage&q&f=true)
 2. [go books list](https://github.com/miguellgt/books/tree/master/go)
 
-## 13. 性能调优
+## 14. 性能调优
 
 1. [使用pprof优化golang性能](http://cjting.me/golang/use-pprof-to-optimize-go/)
 2. [The complete guide to Go net/http timeouts](https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/)
