@@ -36,6 +36,29 @@
 
 参考：[An Official Introduction to the Go Compiler](https://github.com/golang/go/blob/master/src/cmd/compile/README.md)
 
+### 2.1 编译优化
+
+[Go 性能调优之 —— 编译优化](https://segmentfault.com/a/1190000016354799)
+
++ 逃逸分析
++ 调查逃逸分析
++ 内联
++ 死码消除
+
+编译器标识练习
+
+编译器标识提供如下：
+```sh
+go build -gcflags=$FLAGS
+```
+
+研究以下编译器功能的操作：
+
+-S 打印正在编译的包的汇编代码
+-l 控制内联行为； -l 禁止内联， -l -l 增加-l（更多-l会增加编译器对代码内联的强度）。试验编译时间，程序大小和运行时间的差异。
+-m 控制优化决策的打印，如内联，逃逸分析。-m打印关于编译器的想法的更多细节。
+-l -N 禁用所有优化。
+
 ## 3.阅读汇编代码
 
 1. go build -gcflage="-S" xxx.go
