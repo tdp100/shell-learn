@@ -85,6 +85,8 @@ go build -gcflags=$FLAGS
 4. defer原理
 5. panic/recover
 6. goroutine原理, [go scheduler](http://www.cs.columbia.edu/~aho/cs6998/reports/12-12-11_DeshpandeSponslerWeiss_GO.pdf)
+7. [golang type size](https://golang.org/src/go/types/sizes.go)
+8. [golang type align](https://learnku.com/articles/40065)
 
 ## 7.go标准库
 
