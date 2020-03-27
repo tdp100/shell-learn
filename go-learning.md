@@ -61,7 +61,7 @@ go build -gcflags=$FLAGS
 
 ## 3.阅读汇编代码
 
-1. go build -gcflage="-S" xxx.go
+1. go build -gcflag="-S" xxx.go
 2. go tool compile -S xxx.go
 3. go tool compile -X xxx.go //debug lexer
 4. go tool compile -W xxx.go //debug parse tree after type checking
